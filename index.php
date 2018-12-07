@@ -1,9 +1,9 @@
-<?php include("includes/header.php") ?>
+<?php include("eyie/includes/header.php") ?>
 
        
 <?php
      if(!@$_GET['inc']) $_GET['inc']='timeline.html';
-      include("includes/{$_GET['inc']}");
+      include("eyie/includes/{$_GET['inc']}");
 ?>   
          
-<?php include("includes/footer.php") ?>
+<?php include("eyie/includes/footer.php") ?>
