@@ -121,12 +121,12 @@ button .unicode{color:blue;}
     text-indent:3%;}*/
 .mecols
     {background-color:#bcf;
-    width:19%;
+    width:24%;
     /*min-width:125px;*/
     display:inline-table;
     clear:left;}
-.mespan3{
-    width:57.7%;
+.mespan2{
+    width:74%;
 }
 .mehead .mecols
     {font-weight:bold;

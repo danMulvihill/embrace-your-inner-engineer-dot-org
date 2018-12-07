@@ -5,93 +5,136 @@
 and some relatively unknown ones thrown in to help make sense of historical trends and developments.</p>
 
 <div class="merow mehead">
-    <div class="mecols">Primal</div>
-    <div class="mecols">Thinking</div>
-    <div class="mecols mespan3">Working Languages</div>
-</div>
-<div class="merow mehead">
-    <div class="mecols">Languages</div>
-    <div class="mecols">Languages</div>
-    <div class="mecols">(pre-Objects)</div>
-    <div class="mecols">(Classical OOP)</div>
-    <div class="mecols">(Classless OOP)</div>
+    <div class="mecols">Primal Languages</div>
+    <div class="mecols">Functional</div>
+    <div class="mecols">Procedural</div>
+    <div class="mecols">Object-Oriented</div>
 </div>
 <div class="meeralabels">Ancient times (before 1970)</div>
 <div class="merow">
     <div class="mecols">
-    <ul class="melist"><li class="mehiddenlabels">Primal Languages</li><li>Algorithms (800s)</li><li>Machine (1800s)</li><li>Assembly (1940s)</li><span class="nbsp"><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li></span><li>&nbsp;<!--BCPL (1966)--></li></ul>
+        <ul class="melist">
+            <li class="mehiddenlabels">Primal Languages</li>
+            <li>Algorithms (800s)</li><li>Machine (1800s)</li>
+            <li>Assembly (1940s)</li>
+            <span class="nbsp"><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li></span>
+            <li>&nbsp;<!--BCPL (1966)--></li>
+        </ul>
     </div>
     <div class="mecols">
-    <ul class="melist">
-    <li class="mehiddenlabels">Thinking Languages</li>
-    <span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li></span><li>&nbsp;</li><span class="nbsp"><li>&nbsp;</li></span><li>Lisp (1958)</li><span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li></span></ul>
+        <ul class="melist">
+            <li class="mehiddenlabels">Functional Languages</li>
+            <span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li></span>
+            <li>&nbsp;</li>
+            <span class="nbsp"><li>&nbsp;</li></span>
+            <li>Lisp (1958)</li>
+            <span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li></span>
+        </ul>
     </div>
     <div class="mecols">
-    <ul class="melist">
-    <li class="mehiddenlabels">Working Languages</li>
-    <span class="nbsp"><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li></span><li>A-0 (1952)</li><li>FORTRAN (1954)</li><li>ALGOL (1958)</li><li>COBOL (1959)</li><span class="nbsp"><li class="nbsp">&nbsp;</li></span><li>BASIC (1964)</li><li>PL/I (1966)</li></ul>
+        <ul class="melist">
+            <li class="mehiddenlabels">Procedural Languages</li>
+            <span class="nbsp"><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li></span>
+            <li>A-0 (1952)</li>
+            <li>FORTRAN (1954)</li>
+            <li>ALGOL (1958)</li>
+            <li>COBOL (1959)</li>
+            <span class="nbsp"><li class="nbsp">&nbsp;</li></span>
+            <li>BASIC (1964)</li><li>PL/I (1966)</li>
+        </ul>
     </div>
     <div class="mecols">
-    <ul class="melist">
-    <li class="mehiddenlabels">OOP Languages</li>
-    <span class="nbsp"><li class="nbsp">&nbsp;</li><li>&nbsp;<li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li></span><li>Simula (1964-67)</li></ul>
-    </div>
-    <div class="mecols">
-    <ul class="melist nbsp">
-    <li class="nbsp">&nbsp;</li><li>&nbsp;<li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li></ul>
+        <ul class="melist">
+            <li class="mehiddenlabels">OOP Languages</li>
+            <span class="nbsp"><li class="nbsp">&nbsp;</li>
+            <li>&nbsp;<li>&nbsp;</li><li>&nbsp;</li>
+            <li>&nbsp;</li><li>&nbsp;</li>
+            <li>&nbsp;</li><li>&nbsp;</li></span>
+            <li>Simula (1964-67)</li>
+        </ul>
     </div>
 </div>
 <div class="meeralabels">ASCII Internet era, or the Unix Epoch (1970-)</div>
 <div class="merow">
     <div class="mecols">
-         
         <ul class="melist">
-<li class="mehiddenlabels">Low Languages</li>
-<span class="nbsp"><li>&nbsp;</span><li>C (1972)</li><li>&nbsp;<!--shell (1974)--><span class="nbsp"><li>&nbsp;</li><li>&nbsp;<li>&nbsp;</span><li>&nbsp;<!--bash (1989)--><span class="nbsp"><li>&nbsp;</li></span><span class="nbsp"><li>&nbsp;</li></span></ul></div>
+            <li class="mehiddenlabels">Low Languages</li>
+            <span class="nbsp"><li>&nbsp;</span>
+            <li>C (1972)</li>
+            <li>&nbsp;<!--shell (1974)--><span class="nbsp"><li>&nbsp;</li>
+            <li>&nbsp;<li>&nbsp;</span><li>&nbsp;<!--bash (1989)-->
+            <span class="nbsp"><li>&nbsp;</li></span>
+            <span class="nbsp"><li>&nbsp;</li></span></ul></div>
     <div class="mecols">
-    <ul class="melist">
-   <li class="mehiddenlabels">Thinking Languages</li>
-    <span class="nbsp"><li class="nbsp">&nbsp;</li></span><li>Prolog (1972)</li><li>Scheme (1975)</li><span class="nbsp"><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li></span><li>Erlang (1986)</li><span class="nbsp"><li>&nbsp;</li></span><li>Haskell (1990)</li><span class="nbsp"><li>&nbsp;</li></span></ul>
+        <ul class="melist">
+            <li class="mehiddenlabels">Functional Languages</li>
+            <span class="nbsp"><li class="nbsp">&nbsp;</li></span>
+            <li>Prolog (1972)</li><li>Scheme (1975)</li>
+            <span class="nbsp"><li class="nbsp">&nbsp;</li>
+            <li class="nbsp">&nbsp;</li></span>
+            <li>Erlang (1986)</li><span class="nbsp">
+            <li>&nbsp;</li></span><li>Haskell (1990)</li>
+            <span class="nbsp"><li>&nbsp;</li></span>
+        </ul>
     </div>
     <div class="mecols">
-    <ul class="melist">
-     <li class="mehiddenlabels">Working Languages</li>
-    <li>Pascal (1970)</li><span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li></span><li>Perl 1-4 (1987)</li><span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li></span><span class="nbsp"><li>&nbsp;</li></span></ul>
+        <ul class="melist">
+            <li class="mehiddenlabels">Procedural Languages</li>
+            <li>Pascal (1970)</li>
+            <span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li></span>
+            <li>Perl 1-4 (1987)</li>
+            <span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li></span>
+            <span class="nbsp"><li>&nbsp;</li></span>
+        </ul>
     </div>
     <div class="mecols">
-    <ul class="melist">
-    <li class="mehiddenlabels">OOP Languages</li>
-        <span class="nbsp"><li>&nbsp;</li></span><li>Small-talk (1972)</li><li>C&#43;&#43; (1979-83)</li><li>Objective C (83)</li><li>Object Pascal (85)</li><span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li></span><li>Visual Basic (91)</li><li>Python (1991)</li></ul>
-    </div>
-    <div class="mecols">
-    <ul class="melist">
-   <li class="mehiddenlabels">Classless OOP Languages</li>
-    <span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li></span><li>Self (1987)</li><span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li></span><span class="nbsp"><li>&nbsp;</li></span></ul>
+        <ul class="melist">
+            <li class="mehiddenlabels">OOP Languages</li>
+            <span class="nbsp"><li>&nbsp;</li></span>
+            <li>Small-talk (1972)</li>
+            <li>C&#43;&#43; (1979-83)</li>
+            <li>Objective C (83)</li>
+            <li>Object Pascal (85)</li>
+            <span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li></span>
+            <li>Visual Basic (91)</li>
+            <li>Python (1991)</li>
+        </ul>
     </div>
 </div>
 <div class="meeralabels">WWW era (1992-)</div>
 <div class="merow">
-    <div class="mecols"><ul class="melist nbsp"><li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;</ul></div>
     <div class="mecols">
-    <ul class="melist">
-   <li class="mehiddenlabels">Thinking Languages</li>
-    <li>R (1993)</li><span class="nbsp"><li>&nbsp;</li></span><li>Scala (2003)</li><span class="nbsp"><li class="nbsp">&nbsp;</li></span><li>Clojure (2007)</li><span><li class="nbsp"><li  class="nbsp">&nbsp;</li></span></ul>
+        <ul class="melist nbsp">
+            <li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;
+        </ul>
     </div>
     <div class="mecols">
-    <ul class="melist">
-     <li class="mehiddenlabels">Doing Languages</li>
-    <li>PHP 1-4 (1995)</li><span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;<li>&nbsp;
-    </li></span></ul>
+        <ul class="melist">
+            <li class="mehiddenlabels">Thinking Languages</li>
+            <li>R (1993)</li><span class="nbsp"><li>&nbsp;</li>
+            </span><li>Scala (2003)</li>
+            <span class="nbsp"><li class="nbsp">&nbsp;</li></span>
+            <li>Clojure (2007)</li>
+            <span><li class="nbsp"><li class="nbsp">&nbsp;</li></span>
+        </ul>
     </div>
     <div class="mecols">
-    <ul class="melist">
-   <li class="mehiddenlabels">OOP Languages</li>
-    <li>Java (1992)</li><li>Ruby (1995)</li><span class="nbsp"><li class="nbsp">&nbsp;</li></span><li>C# &amp; J# (2000-02)</li><span class="nbsp"><li>&nbsp;</li></span><li>Swift (2014)</li></ul>
+        <ul class="melist">
+            <li class="mehiddenlabels">Doing Languages</li>
+            <li>PHP 1-4 (1995)</li>
+            <span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;<li>&nbsp;</li></span>
+        </ul>
     </div>
     <div class="mecols">
-    <ul class="melist">
-   <li class="mehiddenlabels">Classless OOP Languages</li>
-    <li>Lua (1993)</li><li>JavaScript (1995)</li><span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li></span><li>Go (2009)</li><span class="nbsp"><li>&nbsp;</li></span></ul>
+        <ul class="melist">
+            <li class="mehiddenlabels">OOP Languages</li>
+            <li>Java (1992)</li>
+            <li>JavaScript (1995)</li>
+            <li>Ruby (1995)</li>
+            <li>C# &amp; J# (2000-02)</li>
+            <li>Go (2009)</li>
+            <li>Swift (2014)</li>
+        </ul>
     </div>
 </div>
 <h4>Machine Language</h4>
