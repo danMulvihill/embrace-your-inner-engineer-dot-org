@@ -4,6 +4,8 @@
 <p>A sampling of some of the most significant computer languages, 
 and some relatively unknown ones thrown in to help make sense of historical trends and developments.</p>
 
+<!-- this is old code that created when I first started getting into coding in 2015
+this would be well-suited for flex-box; all refactor this someday -->
 <div class="merow mehead">
     <div class="mecols">Primal Languages</div>
     <div class="mecols">Functional</div>
@@ -17,39 +19,60 @@ and some relatively unknown ones thrown in to help make sense of historical tren
             <li class="mehiddenlabels">Primal Languages</li>
             <li>Algorithms (800s)</li><li>Machine (1800s)</li>
             <li>Assembly (1940s)</li>
-            <span class="nbsp"><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li></span>
-            <li>&nbsp;<!--BCPL (1966)--></li>
+            <li class="nbsp">&nbsp;</li>
+            <li class="nbsp">&nbsp;</li>
+            <li class="nbsp">&nbsp;</li>
+            <li class="nbsp">&nbsp;</li>
+            <li class="nbsp">&nbsp;</li>
+            <li class="nbsp">&nbsp;</li>          
         </ul>
     </div>
     <div class="mecols">
         <ul class="melist">
             <li class="mehiddenlabels">Functional Languages</li>
-            <span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li></span>
-            <li>&nbsp;</li>
-            <span class="nbsp"><li>&nbsp;</li></span>
+            <!--the span tags were used to group multiple blank li -->
+            <span class="nbsp">
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+            </span>
             <li>Lisp (1958)</li>
-            <span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li></span>
+            <span class="nbsp">
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+            </span>
         </ul>
     </div>
     <div class="mecols">
         <ul class="melist">
             <li class="mehiddenlabels">Procedural Languages</li>
-            <span class="nbsp"><li class="nbsp">&nbsp;</li><li class="nbsp">&nbsp;</li></span>
+            <li class="nbsp">&nbsp;</li>
+            <li class="nbsp">&nbsp;</li>
             <li>A-0 (1952)</li>
             <li>FORTRAN (1954)</li>
             <li>ALGOL (1958)</li>
             <li>COBOL (1959)</li>
-            <span class="nbsp"><li class="nbsp">&nbsp;</li></span>
-            <li>BASIC (1964)</li><li>PL/I (1966)</li>
+            <li class="nbsp">&nbsp;</li>
+            <li>BASIC (1964)</li>
+            <li>PL/I (1966)</li>
         </ul>
     </div>
     <div class="mecols">
         <ul class="melist">
             <li class="mehiddenlabels">OOP Languages</li>
-            <span class="nbsp"><li class="nbsp">&nbsp;</li>
-            <li>&nbsp;<li>&nbsp;</li><li>&nbsp;</li>
-            <li>&nbsp;</li><li>&nbsp;</li>
-            <li>&nbsp;</li><li>&nbsp;</li></span>
+            <span class="nbsp">
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+            </span>
             <li>Simula (1964-67)</li>
         </ul>
     </div>
@@ -59,32 +82,48 @@ and some relatively unknown ones thrown in to help make sense of historical tren
     <div class="mecols">
         <ul class="melist">
             <li class="mehiddenlabels">Low Languages</li>
-            <span class="nbsp"><li>&nbsp;</span>
+            <li class="nbsp">&nbsp;</li>
             <li>C (1972)</li>
-            <li>&nbsp;<!--shell (1974)--><span class="nbsp"><li>&nbsp;</li>
-            <li>&nbsp;<li>&nbsp;</span><li>&nbsp;<!--bash (1989)-->
-            <span class="nbsp"><li>&nbsp;</li></span>
-            <span class="nbsp"><li>&nbsp;</li></span></ul></div>
+            <li>shell (1974)</li>
+            <span class="nbsp">
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+            </span>
+            <li>bash (1989)</lI>
+            <li class="nbsp">&nbsp;</li>
+            <li class="nbsp">&nbsp;</li>
+        </ul>
+    </div>
     <div class="mecols">
         <ul class="melist">
             <li class="mehiddenlabels">Functional Languages</li>
-            <span class="nbsp"><li class="nbsp">&nbsp;</li></span>
+            <li class="nbsp">&nbsp;</li>
             <li>Prolog (1972)</li><li>Scheme (1975)</li>
-            <span class="nbsp"><li class="nbsp">&nbsp;</li>
-            <li class="nbsp">&nbsp;</li></span>
-            <li>Erlang (1986)</li><span class="nbsp">
-            <li>&nbsp;</li></span><li>Haskell (1990)</li>
-            <span class="nbsp"><li>&nbsp;</li></span>
+            <li class="nbsp">&nbsp;</li>
+            <li class="nbsp">&nbsp;</li>
+            <li>Erlang (1986)</li>
+            <li class="nbsp">&nbsp;</li>
+            <li>Haskell (1990)</li>
+            <li class="nbsp">&nbsp;</li>
         </ul>
     </div>
     <div class="mecols">
         <ul class="melist">
             <li class="mehiddenlabels">Procedural Languages</li>
             <li>Pascal (1970)</li>
-            <span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li></span>
+            <span class="nbsp">
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+            </span>
             <li>Perl 1-4 (1987)</li>
-            <span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li></span>
-            <span class="nbsp"><li>&nbsp;</li></span>
+            <span class="nbsp">
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+            </span>
         </ul>
     </div>
     <div class="mecols">
@@ -122,7 +161,13 @@ and some relatively unknown ones thrown in to help make sense of historical tren
         <ul class="melist">
             <li class="mehiddenlabels">Doing Languages</li>
             <li>PHP 1-4 (1995)</li>
-            <span class="nbsp"><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;<li>&nbsp;</li></span>
+            <span class="nbsp">
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+                <li>&nbsp;</li>
+            </span>
         </ul>
     </div>
     <div class="mecols">
