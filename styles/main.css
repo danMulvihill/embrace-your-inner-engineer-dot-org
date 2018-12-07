@@ -1,0 +1,187 @@
+/*
+header{
+       color:#004 !important;
+        }
+header h3{
+       text-align:right; font-size: 20px; color:#224754;clear:both
+       }
+*/
+header .container{max-width:1200px}
+/*h1,h2,h3,h4,h5,h6{font-family:"Trebuchet MS", serif;}*/
+h1{margin:15px;text-align:center; font-size:2em;}
+h4{margin:15px;padding-top:20px;}
+h5, h6 { margin: 0; padding: 0;}
+/*p{font-size:16px;line-height:25px;}*/
+
+.navbar-inverse{background-color:#116;border-color:#116}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {color:#ffa;}
+     
+a {cursor: auto;}
+a:hover{cursor:pointer;}
+
+.psda {
+    color: #337ab7;
+    text-decoration: none;
+    
+}
+.psda:focus, .psda:hover {
+    color: #23527c;
+    
+    cursor: pointer;
+}
+pre{margin-left:30px;}
+
+article{clear:left;}
+aside{width:250px;float:left;color:#fff;background:#3f7ccf;padding:20px 0}
+aside>*{margin:0 10px}
+
+
+footer{clear:both;margin-top:10px;color:#ffa}
+footer .navbar {border-radius: 0; margin-bottom:0;} 
+footer .container{max-width:1200px}
+
+.container{max-width:800px; margin:0 auto;}
+
+
+#title_in_boxes{
+       margin:0px;text-align:center;font-size:5em;color:white;cursor:pointer
+       }
+#navTitle{
+    font-size:1.3em
+        }
+#s, #p, #y, #r, #o, #y2, #a, #k{
+    float:left;
+    width:12.3%;
+    color:#ffa;
+    border-radius:10%;
+    background-color:#000088;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000035), to(#000088));
+    background-image: gradient(linear, 0% 0%, 0% 100%, from(#000035), to(#000088));
+    background-image: -webkit-linear-gradient(left,#000035,#000088);
+    background: -o-linear-gradient(left,#000035,#000088); 
+    background: -moz-linear-gradient(left,#000035,#000088); 
+    background: linear-gradient(left,#000035,#000088); 
+    transition-property: background-color, transform;
+    transition-duration: 5s, 1s, 500ms;
+        }
+#s:hover, #p:hover, #y:hover, #r:hover, #o:hover{
+   	background:#880088;
+   	transform: rotate(180deg);
+   		}
+#y2:hover{ background:#880088;transform:rotate(360deg);}
+#a:hover{ background:#808; transform:rotate(720deg);}
+#k:hover{ background:#808; transform:rotate(1440deg);}
+
+
+#internet .col-sm-10{background: #e0e0e0; margin-top:10px; border-radius: 5px}
+#internet .col-sm-1{background: #d0d0f0; margin-top:10px}
+
+/*unicode styles*/
+
+#unicodeOutput p{float:left;padding:1px 4px;border: 1px solid #aaa; line-height: normal; font-size:1.3em}
+#unicodeOutput p:last{border:none;}
+.chars{color:#33e;font-size:1.4em;}
+.charIndex, .hexIndex{font-size: 1.0em;}
+
+.buttons{width:98%; margin: 0 auto; padding: 1%;}
+#unicodeOutput{clear:left;margin:0 15px;}
+
+.buttons h3, .buttons p {margin: 2px;}
+
+/*
+button .unicode{color:blue;}
+.buttons button{cursor:pointer;color:#00d;border-radius:5px}
+.buttons h3:hover,.buttons button:hover {color: #CB000F;box-shadow: 5px 5px 5px #888888;}
+.buttons h3:active,.buttons button:active {text-decoration: underline;box-shadow: 1px 1px 1px #888888;}
+.buttons h3,.buttons p{font-size:18px;margin:0;padding:6px 12px;border:1px solid #555;background-color:#eee;box-shadow: 2px 2px 2px #888888;border-radius:5px;width:100%;color:blue;text-align:center;cursor:pointer}
+.buttons p{display:inline;line-height:1.5em;}
+*/
+
+/*timezone styles*/
+
+#TimezoneTable table{width:100%; max-width:1000px;}
+#TimezoneTable th>span[ng-click]{text-align:left;color:blue;cursor:pointer}
+#TimezoneTable td{padding: 0 1%;}
+#TimezoneTable tr:nth-child(even){background-color:#ddf;}
+#TimezoneTable tr:nth-child(odd){background:#fff;}
+#TimezoneTable table, th, td{border:2px solid white;}
+
+.image img{width:100%;}
+.columnLeft, .columnRight{float:left;width:45%}
+
+/* Lang styles */
+
+.melist
+    {padding:0 2%;margin:2 1%;}
+.melist li
+    {list-style:none;
+        clear:left;}
+/*p {max-width:700px;
+    margin:10px 5%;
+    text-indent:3%;}*/
+.mecols
+    {background-color:#bcf;
+    width:19%;
+    /*min-width:125px;*/
+    display:inline-table;
+    clear:left;}
+.mespan3{
+    width:57.7%;
+}
+.mehead .mecols
+    {font-weight:bold;
+    text-align:center}
+.meeralabels
+    {text-indent:3%;
+    font-style:italic;
+    font-size:.9em;}
+.merow
+    {width:100%}
+.mehiddenlabels{display:none; text-decoration:underline}
+
+/*Life styles*/
+
+.life h3{margin-top:0;}
+
+/* old astro sytyles? */
+            
+#table{font-size:12px}
+#table a {color:brown; text-decoration:none}
+#imgt{width:20%;max-width:300px;/*left:600pxtop:200px;*/}
+.indent{margin-left: 15px;}
+.hiddenText{margin-left:15px; display:none}
+/*.hover{position:absolute; border:solid; z-index:999; background-color:#ffffff; visibility:hidden;padding:3px;}*/
+#image img, .images img{width:100%;}
+
+
+.alert-info {background-color:#f9f9f9}
+
+/* waves */
+#emw tr{
+    background:#ccc;
+}
+
+/*Media Queries*/
+
+/*
+@media(max-width:925px){
+    header h2{font-size:2em}
+}
+*/
+
+@media(max-width:775px){
+    .mecols{font-size:14px}
+}
+
+@media(max-width: 700px) {
+    #controls #start,#stop{font-size:24px}
+    #controls #first,#back,#forward,#last{font-size:18px}
+    .columnLeft, .columnRight{width:100%}
+    .mecols{width:100%;font-size:18px}
+    .mehead{display:none}
+    .mehiddenlabels{display:inline;font-size:20px;font-weight:bold}
+    .nbsp{display:none}
+  
+ 
+}
+

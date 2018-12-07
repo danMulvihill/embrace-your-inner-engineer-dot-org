@@ -1,0 +1,251 @@
+[
+
+  {
+	"event":"Slide Rule",
+	"year":[1621],
+	"type":"Hardware",
+	"details":"William Oughtred invented the slide rule, which remained the most widespread tool for math operations until the electronic calculator took over in the 1970s."
+  },{
+	"event":"Arithmetic Machine",
+	"year":[1642],
+	"type":"Hardware",
+	"details": "Blaise Pascal built an Arithmetic Machine, a calculator that used a system of gears turned by hand to do subtraction and addition. It also stored data on cards."
+  },{
+	"event":"Jacquard weaving loom",
+	"year":[1804],
+	"type":"Hardware",
+	"details": "Joseph-Marie Jacquard programmed a weaving loom using a series of punched careds that controlled what paterns were woven into a fabric. Different cards resulted in different patterns"
+  },{
+    "event":"Electromagnetic Induction",
+	"year":[1821],
+	"type": "Electricity",
+	"details": "Michael Faraday discovered electromagnetic induction. By moving a conductor in a charged magnetic field, it produced a current. This was the first demonstration of the conversion of electrical energy into mechanical energy by electromagnetic means, leading to development of electric motors and generators."
+  },{
+   "event":"Analytical Engine",
+   "year":[1830],
+   "type":"Hardware",
+   "details":"Charles Babbage designed the model for what would have been the first computer. It was different from calculators because it could make decisions such as sequential control, branching, and looping. Babbage's machine was so complex and expensive that he died in 1871 without finishing it."
+  },
+  {
+	"event":"Telegraph",
+	"year":[1844],
+	"type":"Electricity",
+	"details":"A telegraphic cable laid between Baltimore and Washington D.C. was first used to send messages back and forth. This was the first demonstration of long distance communication via cable."
+  },{
+	"event":"Kinetoscope",
+	"year":[1889],  
+	"type":"Hardware",
+	"details":"Thomas Edison invented a hardware device that let people view moving pictures on film"
+  },{
+	"event": "IBM & Punch Cards",
+	"year": [1890],
+	"type": "Hardware",
+	"details": "Herman Hollerith invented a mechanized system of paper cards with holes in them to tabulate the U.S. Census. Although the compnay that Hollerith founded was originally known as the Computing-Tabulating Recording Company, it would change it's name to International Business Machines (IBM) in 1924"
+  },{
+	"event":"Vacuum Tube (Diode)",
+	"year":[1904],
+	"type": "Processors",
+	"details": "John Ambrose Fleming, an employee of Thomas Edison who went to work for the Marconi Radio Company, created the first commercial diode vacuum tube in the form of an oscillation valve. He discovered that cathode rays (electrons) passing through a vacuum tube amplified a current, which could be used to reproduce and amplify the sound carried by the waves"
+  },{
+	"event":"Triode",
+	"year":[1906],
+	"type":"Processors",
+	"details":"Radio pioneer, Lee DeForest improved upon John Ambrose Fleming's oscillation valves in vacuum tubes by adding a third electrode (a triode) made of nikel wire grid-like mess placed between the filament (cathode) and anode. Applying a small electrical charge to the grid disrupted the flow of electrons from the filament to the plate, essentially letting a small amount of electrical current control a much larger flow or current. By adjusting the voltage of the grid, the triode behaved like a switch, and amplified web signals. The triode made it possible to communicate over long distances by radio, and eventual became an important compnent in logic gates for computer processing"
+  },{
+	"event": "First Computer?",
+	"year":[1935],
+	"type":"Hardware",
+	"details":"Conrad Zuse, an engineering student, built a relay computer using binary numbers and mechanical memory scheme"
+  },{
+	"event":"1-bit adder",
+	"year":[1937],
+	"type":"Hardware",
+	"details":"George Stibitz of Bell Telephone Laboratories wired a 1-bit adder with telephone relays that led to Bell Labs' Complex Number Computer in 1939"
+  },{
+	"event": "Atanasoff-Berry Computer",
+	"year":[1942],
+	"type":"Hardware",
+	"details": "This machine was built by Iowa State College mathematician John Vincent Atanasoff and graduate student Clifford Berry. It was designed to solve systems of linear equations"
+  },{
+    "event": "Colossus",
+	"year": [1943],
+	"type":"Hardware",
+	"details":"Colossus was a set of computers develeped and operated to decipher interrupted codes during WWII. It was the first electronic computer (being built primarily was vacuum tubes), altough it was programmed with switches and plugs, not stored programs."
+  },{
+    "event":"Harvard Mark I",
+	"year":[1944],
+	"type":"Hardware",
+	"details":"The Harvard Mark (more formally known as the Automated Sequence Controlled Calculator(ASCC) was a massive computer built with electromechanical components. Inspired by Babbage's Analytical Engine, it computed and printed tables. Some the tables were used for the Manhattan Project to detonate the atomic bomb later that year"
+  },{
+	"event":"ENIAC",
+	"year":[1945],
+	"type":"Hardware",
+	"details": "The Electronic Numerical Integrator and Computer (ENIAC) was designed by J. Presper Eckert and John Mauchly and built the University of Pennsylvania Moore School of Electrical Engineering to calculate ballistics tables for the U.S. Army's Ballistics Research Laboratory. It was built 18,000 vacuum and was the largest computer ever built"
+  },{
+     "event":"Transistor",
+     "year":[1947],
+      "type":"Processors",
+      "details":"John Bardeen and Walter Brattian, working under the direction of Walter Shockley, created the first transistor, an amplifier/switch using semiconductor material like germanian and silicon rather than an airless glass chamber, as in a vacuum tube."
+  },{
+	"event":"Manchester Mark I",
+	"year":[1948],
+	"type":"Hardware",
+	"details":"This computer is often regared as the first computer that could store a program electronically instead of making programmers set switches manually."
+  },{
+    "event": "UNIVAC",
+    "year": [1951],
+    "type":"Hardware",
+    "details": "The Universal Automatic Computer (UNIVAC), built by the Eckert-Mauchly Computer Corporation (later part of Remington Rand), was the first commercially available computer"
+  },{
+	"event":"EDVAC",
+	"year":[1952],
+	"type":"Hardware",
+	"details":"The Electronic Discrete Variable Automatic Computer was inspired by John von Neumann's concept of a stored program. This was often regarded as the first general-purpose electronic digital computer with a stored program. EDVAC was built by the UPenn's Engieering school for the U.S. Army.  It was one of the first computers to use memory to store program codes and data"
+  },{
+	"event": "SAGE",
+	"year": [1958],
+	"type": "Networks",
+	"details": "IBM contracted with the United States Air Force to build the Semi-Automatic Ground Environment (SAGE), a system of large computers and networking equipment that coordinated and processed data from many radar site. SAGE directed and controlled the NORAD response to a Soviet air attack, operating in this role from the late 1950s into the 1980s"
+  },{
+     "event":"Integrated Circuit (IC or \"microchip\")",
+     "year":[1958],
+      "type":"Processors",
+      "details":"Jack Kilby of Texas Instruments and Robert Noyce of Fairchild Semiconductor Corp. independently discovered that multiple transistors as well as resistors and other electrical components could be made from a single piece of silicon. This made assembly of computers easier because the transistors could be pre-wired in common configurations."
+  },{
+	"event":"SABRE",
+	"year":[1960],
+	"type":"Networks",
+	"details":"IBM built the Semi-Automated Business Research Environment (SABRE), an airline reservation system for American Airlines. It first went online in 1960 and took over all of AAs reservations in 1964. SABRE was one of the first non-Internet \"Wide Area Network\""
+  },{
+	"event": "Internet (ARPANET)",
+	"year": [1969],
+	"type": "Internet",
+	"details": "A message was sent from a computer at the University of California, Los Angeles (UCLA) to the Stanford Research Institute. This event and linkage of the first two computers using ARPANET technology is often considered to be the birth of the Internet. Later that year, a 4-node network was connected by adding the University of Utah and UC-Santa Barbara."
+  },{
+      "event":"CompuServe",
+      "year":[1969],
+      "type":"Internet",
+      "details":"CompuServe, the first major commercial online service provider, began as subsidary of an insurance company in Ohio and spun off as a seperate company in 1975. It first depended on phone lines connected to a time-sharing host network, and later developed its own packet switchiing network "
+  },{
+      "event":"ALOHAnet",
+      "year":[1971],
+      "type":"Networks",
+      "details":"ALOHAnet was the first computer networking system using Ethernet-like cable and wireless packets. Developed at the University of Hawaii, ALOHAnet used low-cost commercial radio equipment to connect users on Hawaii's main island and the other islands with a central time-sharing computer. ALOHAnet provided the basis for Etherent and Wi-Fi networks."
+  },{
+      "event":"FTP",
+      "year":[1971],
+      "type":"Internet",
+      "details":"Abhay Bhushan, a student at the Indian Institute of Technology, developed the File Transfer Protocol (FTP), an application-layer protocol for transferring files from server to client on Internet networks."
+  },{
+      "event": "email",
+      "year":[1971],
+      "type":"Internet",
+      "details":"Ray Tomlinson is generally credited as having sent the first email across a network, initiating the use of the \"@\" sign to separate the names of the user and the user's machine, He sent a message from one Digital Equipment Corporation DEC-10 computer to another DEC-10. Tomlinson's work was quickly adopted across the ARPANET, which significantly increased the popularity of email"
+  },{
+     "event":"Intel 4004",
+     "year":[1971],
+      "type":"Processors",
+      "details":"Intel Corporation released the Intel 4004, a 4-bit central processing unit (CPU). Mostly used in calculators, the 4004 was the frist CPU fully integrated and contained in one chip."
+  },{
+     "event":"Intel 8008",
+     "year":[1972],
+      "type":"Processors",
+      "details":"Intel instroduced an 8-bit microprocessor. Unlike the 4004, the 8008 was used for computers. The 8008 was used in the very first commercial non-calculator personal computers."
+  },{
+      "event":"Ethernet",
+      "year":[1974],
+      "type":"Networks",
+      "details":"Ethernet was developed at Xerox PARC. Inspired by ALOHAnet, the idea was first proposed by Robert Metcalfe. He named it after the disproven luminiferous ether as an \"omnipresent, completely-passive medium for the propagation of electromagnetic waves\""
+  },{
+     "event":"Intel 8086",
+     "year":[1978],
+      "type":"Processors",
+      "details":"the Intel 8086 was one of the first 16-bit microprocessor."
+  },{
+	"event": "TCP/IP",
+	"year": [1983],
+	"type": "Internet",
+	"details": "The Network Control Protocol (NCP) on the ARPANET was replaced by the more flexible and powerful family of TCP/IP protocols, marking the start of the modern Internet."
+  },{
+     "event":"Intel 80386",
+     "year":[1985],
+      "type":"Processors",
+      "details":"One of the first 32-bit microprocessor."
+  },{
+     "event":"Archie",
+     "year":[1987],
+      "type":"Internet",
+      "details":"A tool for indexing FTP sites in archives, allowing people to find specific files"
+  },{
+	"event": "World Wide Web (WWW)",
+	"year":[1990],
+	"type": "Internet",
+	"details": "Tim Berners-Lee, an engineer at the European Council for Nuclear Research (CERN), developed the Hypertext Transfer Protocol (HTTP) for transfering files and another protocol for labeling or \"marking up\" those files (HTML). Berners-Lee also developed the first Web Server and the first Web browser known as the WorldWideWeb, later refined as libwww, a command line mode browser."
+             
+  },{
+     "event":"Gopher",
+     "year":[1991],
+      "type":"Internet",
+      "details":"an application-level protocol for distributing, searching and retrieving documents over the Internet. Intially quite popular, gopher was eventually overshadowed by the http protocl and web browsers."
+  },{
+     "event":"Lynx",
+     "year":[1992],
+      "type":"Internet",
+      "details":""
+  },{
+      "event": "Mosaic",
+      "year":[1993],
+      "type":"Internet",
+      "details":"NCSA"
+  },{
+     "event":"Opera",
+     "year":[1994],
+      "type":"Internet",
+      "details":""
+  },{
+      "event":"Bluetooth",
+      "year":[1994],
+      "type":"Networks",
+      "details":"Bluetooth is a wireless technology standard for exchanging data over very short distances from fixed and mobile devices, and building personal area networks. Invented by Dannish telecom company Ericsson in 1994, it was originally conceived as a wireless alternative to serial port cables."
+  },{
+     "event":"Netscape Navigator",
+     "year":[1994],
+      "type":"Internet",
+      "details":""
+  },{
+     "event":"Internet Explorer",
+     "year":[1995],
+      "type":"Internet",
+      "details":""
+  },{
+     "event":"Mozilla",
+     "year":[2000],
+      "type":"Internet",
+      "details":""
+  },{
+     "event":"Internet Explorer 6",
+     "year":[2001],
+      "type":"",
+      "details":""
+  },{
+     "event":"Safari",
+     "year":[2003],
+      "type":"Internet",
+      "details":""
+  },{
+     "event":"Internet Explorer 7",
+     "year":[2006],
+      "type":"",
+      "details":""
+  },{
+     "event":"Chrome",
+     "year":[2009],
+      "type":"Internet",
+      "details":""
+  },{
+     "event":"",
+     "year":[],
+      "type":"",
+      "details":""
+  }
+]
