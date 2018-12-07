@@ -5,7 +5,7 @@
                         <li><a href="https://www.linkedin.com/in/dan-mulvihill-4a45654">© 2016 Daniel Mulvihill</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.php?inc=about.php">about EYIE</a></li>
+                        <li><a href="http://www.embraceyourinnerengineer.com">about the author</a></li>
                     </ul>
             </div>
         </nav>

@@ -56,13 +56,12 @@
                 <ul class="nav navbar-nav navbar-right">
                 
                 <?php $topics = [ 
-				   array('title' => 'About', 'include' => 'about.php'),
+				   //array('title' => 'About', 'include' => 'about.php'),
 				   array('title' => 'Computers', 'include' => 'languages.php'),
 				   array('title' => 'Waves','include' => 'waves.php'),
 				   array('title' => 'Unicode','include' => 'unicode.php'),
 				   array('title' => 'Time','include' => 'time.php'),
 				   array('title' => 'Space', 'include' => 'solar.html'),
-				   //array('title' => 'Coffe Run', 'include' => 'coffeeRun.php'),
 				   array('title' => 'History','include' => 'timeline.html'),
 				   
 				   ];
