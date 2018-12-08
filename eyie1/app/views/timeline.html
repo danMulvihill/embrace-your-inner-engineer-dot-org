@@ -1,0 +1,46 @@
+ <div class="row">
+	 <div class="col-md-6"><h2>Timeline</h2></div>
+	 <div class="col-md-6 text-right"><h3>{{description}}</h3></div>
+</div>
+<div class="row alert alert-info">
+	<div class="col-md-12">
+	  Include:
+		
+			<label class="checkbox-inline"><input type="checkbox"  ng-model="chInt"> Internet</label>
+			<label class="checkbox-inline"><input type="checkbox" ng-model="chNet">Networks and networking infrastructure</label>
+        <br>
+			<label class="checkbox-inline"><input type="checkbox" ng-model="chCPU">Processors</label>
+			<label class="checkbox-inline"><input type="checkbox" ng-model="chHard">Other Hardware</label>
+			<!--<label class="checkbox-inline"><input type="checkbox"  ng-model="chSoft" >Software</label>-->
+			<label class="checkbox-inline"><input type="checkbox" ng-model="chElectric">Electricity and Electronics</label>
+			
+	</div>
+</div>
+
+	<table class="table table-striped"  width="100%">
+		<thead>
+			<tr>
+				<th class="text-center">Year</th>
+				<th class="text-center">Invention</th>
+				<!--<th class="hidden-xs text-center">Type</th>
+				<th class="hidden-xs text-center">Organization</th>-->
+				<th class="text-center">Details</th></tr>
+		</thead>
+		<tbody> 
+			<tr ng-repeat="item in items  | filter:selfFilter | orderBy:sortBy:reverse" 
+			     ng-if="item.type==='Internet'&&chInt||
+						   item.type==='Networks'&&chNet||
+						   item.type==='Hardware'&&chHard||
+						   item.type==='Software'&&chSoft||
+						   item.type==='Electricity'&&chElectric||
+						   item.type==='Processors'&&chCPU">
+				<td>{{item.year[0]}}</td>
+				<td><strong>{{item.event}}</strong></td> 
+				<!--<td class="hidden-xs">{{item.type}}</td>
+				<td class="hidden-xs">{{item.org}}</td>-->
+				<td><span ng-if="item.people"><strong>{{item.people}}</strong> - </span>{{item.details}}</td>
+			</tr>
+		</tbody>
+	</table>
+	<a class="btn btn-block" href="#/">Return to top </a>
+ 		

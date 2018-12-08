@@ -191,16 +191,16 @@
      "event":"Lynx",
      "year":[1992],
       "type":"Internet",
-      "details":"One of the first widely distributed applications for navigating hypertexted linked on HTML documents. It was a text-based web-browser first developed by students at the University of Kansas"
+      "details":""
   },{
       "event": "Mosaic",
       "year":[1993],
       "type":"Internet",
-      "details":"One of the first fully graphic browsers developed by the NCSA at the University of Illinois-Champaign."
+      "details":"NCSA"
   },{
      "event":"Opera",
      "year":[1994],
-      "type":"",
+      "type":"Internet",
       "details":""
   },{
       "event":"Bluetooth",
@@ -210,17 +210,17 @@
   },{
      "event":"Netscape Navigator",
      "year":[1994],
-      "type":"",
+      "type":"Internet",
       "details":""
   },{
      "event":"Internet Explorer",
      "year":[1995],
-      "type":"",
+      "type":"Internet",
       "details":""
   },{
      "event":"Mozilla",
      "year":[2000],
-      "type":"",
+      "type":"Internet",
       "details":""
   },{
      "event":"Internet Explorer 6",
@@ -230,7 +230,7 @@
   },{
      "event":"Safari",
      "year":[2003],
-      "type":"",
+      "type":"Internet",
       "details":""
   },{
      "event":"Internet Explorer 7",

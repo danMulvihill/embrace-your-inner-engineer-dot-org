@@ -150,9 +150,8 @@ this would be well-suited for flex-box; all refactor this someday -->
     <div class="mecols">
         <ul class="melist">
             <li class="mehiddenlabels">Thinking Languages</li>
-            <li>R (1993)</li>
-            <li><em>JavaScript (1995)</em></li>
-            <li>Scala (2003)</li>
+            <li>R (1993)</li><span class="nbsp"><li>&nbsp;</li>
+            </span><li>Scala (2003)</li>
             <span class="nbsp"><li class="nbsp">&nbsp;</li></span>
             <li>Clojure (2007)</li>
             <span><li class="nbsp"><li class="nbsp">&nbsp;</li></span>
@@ -183,56 +182,17 @@ this would be well-suited for flex-box; all refactor this someday -->
         </ul>
     </div>
 </div>
-<h4>Algorithms</h4>
-    <p>The first computers were people. They were "controlled" by providing them a set of instructions that guided what to do.
-        The instruction had to be specific enough and clear enough to prevent ambiguous interpretation.</p>
-        <figure class="pull-left img-with-caption large">
-           <img class="img-rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Khiva.jpg/800px-Khiva.jpg"> 
-           <figcaption>Statue of Muḥammad ibn Mūsā al-Khwārizmī</figcaption> 
-        </figure>        
-           <p>In 825 A.D, a formal approach of providing instructions to computers was outlined in a book entitled <i>Algoritmi de 
-    numero Indorum</i> which directly
-    translates to "Algoritmi on Indian numbers" but you may find on Wikipedia or related sources as "Al-Khwarizmi on the 
-    Hindu Art of Reckoning" or "On the Calculations with Hindu Numerals." Algoritmi, or Al-Khwarizmi, was a Persian astronomer who 
-    introduced the modern Western world to the numerical symbols we know as Arabic numerals, the Indian concept of Zero, and reintroduced 
-    ancient Greek mathematics. Of the many refinements Algoritmi worked on was the idea that bears his name in a corrupted English form, the algorithm. 
-</p>
-    <p>An algorithm is a set of instructions that can be written down by one person and presented to another person, and if carried 
-    out faithfully without thinking too hard, will yield the same results. For hundreds of years, algorithms were used for a variety of industries such as
-    navigation and astronomy for making long tedious calculations. 
-</p>
-<p>For centuries, hundreds, if not thousands, of human computers had contributed to the development of science and technology. A
- few of them even made well-known contributions. 
- One of them was Henreitta Swan Leavitt, who, in 1908, formulating something called the 'period-luminosity relationship' of a particular type of stars 
- known as Cepheid variables. 
- This discovery essentially made it possible to determine how far galaxies are from us, which led to the discovery of an expanding universe and the big bang.
-</p>
-
-<figure class="pull-left img-with-caption">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Jacquard_loom_p1040320.jpg/450px-Jacquard_loom_p1040320.jpg" 
-    alt="Jacquard loom"
-    class="img-rounded ">
-<figcaption>A model of the Jacquard loom, one the first machines fed software</figcaption>
-</figure>
 <h4>Machine Language</h4>
-
 <p>Machines come in a variety of shapes and forms, but we don't talk to most of them and they generally do one thing: the task they are designed to do. 
     There are simple machines, like wheel barrows, ramps, and screws, and there are slightly more complicated machines, like motors, light detectors, radio signal receiver/transmitters,
     and machines that smash atoms together.
     Occasionally we come across machines that allow us to feed them information and they do what we ask them to do if we are very specific with our instructions.
 </p>
-
+<!--<img src="images/jacloom.jpg" class="img-rounded pull-right gap-left">-->
 <p>One of the first machines that humans tried talking to was something known as the Jacquard loom, named after it's inventor, Joseph-Marie Jacquard. 
     In 1801, Jacquard built a weaving loom that allowed people to feed it a set of attached cards, known as pattern cards. 
     These cards were perforated, and the perforations directed rods and needles to operate at certain sequences to make different patterns. 
 </p>
-
-<figure class="pull-right img-with-caption">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Analytical_Engine_%282290032530%29.jpg/450px-Analytical_Engine_%282290032530%29.jpg"
-        alt="Babbage's Analytical Engine"
-        class="img-rounded">
-    <figcaption>Although Babbage's engine was never completed in his lifetime, others at the Science Museum in London built a model and got it operating. Reviews were mixed </figcaption>
-</figure>
 <p>In the 1840s, while the pattern cards and the new looms were transforming the textile industry,
  a young countess Augusta Ada King, better known as Ada Lovelace, wanted to figure out how to talk to 
  another machine, a massive mechanical calculator being built by her friend Charles Babbage. Babbage and Ada had figured out that this machine, 
@@ -248,22 +208,35 @@ this would be well-suited for flex-box; all refactor this someday -->
  but by combining "do"/"don't do" instructions with several different parts of a machine, we can get pretty sophisticated with combining instructions. The pattern cards of the Jacquard loom, for example, created intricate designs on textiles that would be nearly impossible without them. This
  is actually still how we talked to machines, for the most part, but now we have mnemonics that hide us from the tedious process of telling each part of the machine to turn and off.
 </p>
-
--->
+<h4>Algorithms</h4>
+<p>To understand the importance of algorithms in our relationship with machines, we 
+    need to go a little farther back in time, to the year 825 A.D. This was the year a formal approach of providing instructions to computers was outlined in a book entitled <i>Algoritmi de 
+    numero Indorum</i> which directly
+    translates to "Algoritmi on Indian numbers" but you may find on Wikipedia or related sources as "Al-Khwarizmi on the 
+    Hindu Art of Reckoning" or "On the Calculations with Hindu Numerals." Algoritmi, or Al-Khwarizmi, was a Persian astronomer who 
+    introduced the modern Western world to the numerical symbols we know as Arabic numerals, the Indian concept of Zero, and reintroduced 
+    ancient Greek mathematics. Of the many refinements Algoritmi worked on was the idea that bears his name in a corrupted English form, the algorithm. 
+</p>
+    <p>An algorithm is a set of instructions that can be written down by one person and presented to another person, and if carried 
+    out faithfully without thinking too hard, will yield the same results.
+       For hundreds of years, algorithms were used for a variety of industries such as
+    navigation and astronomy for making long tedious calculations. The poor people hired for making these calculations were known
+    as computers, because that's what they did; they computed. 
+</p>
+<p>For centuries, hundreds, if not thousands, of human computers had contributed to the development of science and technology. A
+ few of them even made well-known contributions. 
+ One of them was Henreitta Swan Leavitt, who, in 1908, formulating something called the 'period-luminosity relationship' of a particular type of stars 
+ known as Cepheid variables. 
+ This discovery essentially made it possible to determine how far galaxies are from us, which led to the discovery of an expanding universe and the big bang.
+</p>-->
 <h4>Assembly Language</h4>
-
     <p>Around the 1940s, some of the first people working on computers realized that many of the steps they did over and over again can be classified and labeled with mnemonics, 
         simple 2 to 3 letter phrases to tell other computers, for example, to open a specific set of circuits in this or that array to print a letter "A" on a 
         paper tape, or move this number on to the processor's register so can be multiplied with another number. 
         These set of instructions in the form of mnemonics were the first computer languages (or more specifically assembly languages). 
         Thus, assembly languages were a series of mnemonics written by one person to direct other people. 
         They would in turn eventually worked out how to feed the instructions directly into the machines instead of other people.</p>
-<figure class="pull-left img-with-caption">
-    <img src="eyie/images/edsac.jpg" alt="Edsac">
-    <figcaption>The EDSAC is often considered one of the first computers. 
-        Although back then, it's the <a href="https://www.cambridgenetwork.co.uk/news/edsac-veterans-rekindle-memories/" target="_blank" > people who operated the EDSAC </a>who were considered the computers.
-    </figcaption>
-</figure>
+
 <p>Computers at the core, are surprising simple machines. 
     They have a component called a 'processor' and a component called the 'memory'. Everything else is 'peripheral'. 
     The memory holds two or more numbers until the processor needs them and the processor does nothing more then adds two numbers 
@@ -285,10 +258,7 @@ this would be well-suited for flex-box; all refactor this someday -->
 <h4>Complied Languages</h4>
 
 <p>One problem with talking to a computer directly with assembly languages is that you had to make your language specific to each processor in each computer. 
-<figure class="pull-left img-with-caption large" >
-    <img src="eyie/images/grace.jpg" alt="Grace Murray Hopper">
-    <figcaption>Grace Murray Hopper, holding the docs for COBOL, one the languages her ideas inspired</figcaption>
-</figure>
+     
     Each time a new processor was invented, a new assembly language had to be made for it. 
     This process was made easier with mass production of interchangeable processors, but what made life easier for programmers was a language that 
     could be translated into many assembly languages or directly into machine language. The mechanism that made this possible was something called a compiler.
@@ -302,16 +272,11 @@ this would be well-suited for flex-box; all refactor this someday -->
           Adlai Stevenson in the 1952 presidential election, while most human prognosticators were claiming the race would be close. Compilers are what allows a programmer to use one computer language to talk to several processors.  
           Many of Hopper's ideas and methods were used to develop the COBOL language in 1959. 
 </p>
-<figure class="pull-right img-with-caption">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/IBM_701console.jpg/450px-IBM_701console.jpg" alt="IBM 701">
-    <figcaption>An IBM 701, one of the computers for which John Backus developed FORTRAN</figcaption>
-</figure>
 <p>At about the same time, another mathematician named John Backus, led a team at IBM to develop another language called FORTRAN. FORTRAN was designed to work on 
     IBM's first line of true computers known as the 700/7000 series, a group of models the size of refrigerators and what became known as mainframe computers.
         (John Backus latter contributed to an international committee of programmers in Switzerland that created another important early language known as ALGOL.)
      
 </p>
-
 <p> 
     FORTRAN was well-suited for numeric calculations. It was marketed and packaged for academic purposes for accurate scientific calculations. 
     COBOL and ALGOL on the other were marketed for business needs. Business managers like to do things, or at least they like to tell other people what to do. 
@@ -333,12 +298,6 @@ for non-mathematicians to learn programming, which helped lead to the developmen
 science. Though mathematical concepts remain an essentially part of programming, the development of imperative languages provides 'short-cuts' and 
 greater degrees of abstraction. If programming had remained exclusively a sub-discipline of mathematics, humans may have only had 
  functional languages to talk to computers. 
- <figure class="pull-right img-with-caption">
-     <img src="eyie/images/turing.jpg" alt="Alan Turing on a stamp"/>
-     <figcaption>Stamp commerating Alan Turing. In addtion to providing
-         the foundations of functional programming, Turing helped efforts
-         to break Nazi codes during WWII</figcaption>
-</figure>
  <p>The idea of functional programming predates electronic computers. It represents the mechanical implication of lambda
  calculus, a mathematical sub-discipline devised primarily by the Princeton University mathematician Alonzo Church in the 1930s,
   although the British mathematician Alan Turing independently hit on some of the same ideas 
@@ -354,12 +313,6 @@ to a procedure or sub-routine and they have existed since the first assembly lan
 and returns another value. The real power of functional programming comes in to play, however, when that value can be not only a number or a string but 
 also another function, or group of functions, and functions can return functions. These ideas of functions passing in and out of other functions and a set of rules for defining values that can be passes into functions comes from lambda calculus.
 <h4>Lisp</h4>
-<figure class="pull-left img-with-caption">
-    <img src="eyie/images/russell.jpg" alt="Steve Russell playing Spacewar">
-    <figcaption>After developing Lisp, Steve Russell went on to pioneer the video game industry.
-        Pictured here, holding the joystick, probably at a museum in the 70s, in front of PDP1,
-        the computer Space War would have been orignally played on.
-</figure>
 <p>One of the first languages to rely heavily on functional programming, and one of the oldest computer languages still in widespread use, is a language known 
     as Lisp.  Lisp has it's origins in a paper written by the mathematician John McCarthy in 1958 while he was at the Massachusetts Institute of 
     Technology (MIT). In this paper, McCarthy demonstrated that all you need to talk to machines was a few simple mathematical
@@ -368,11 +321,6 @@ also another function, or group of functions, and functions can return functions
     Steve Russell, one of McCarthy's graduate students, read
     McCarthy's paper and realized that those functions can be converted in machine code. He used an 704 IBM mainframe computer
     and created the first Lisp compiler.
-<figure class="pull-right img-with-caption">
-    <img src="eyie/images/spacewar.jpg" alt="Atari's Spacewar">
-    <figcaption> 
-        Atari's version of Spacewar, popular in the 1980s, was inspired by Steve Russell's 1962 version.
-</figure>
 <h4>Scheme</h4>
 <p> There are a couple of 'dialects' of Lisp that are worth noting. One of them is Scheme, a language, or Lisp dialect,
     invented at the MIT Artificial Intelligence (AI) Lab in the 1970s. Scheme was invented to give a Lisp a more 
@@ -394,10 +342,6 @@ into Java bytecode. This feature gives it an advantage that it could be used by 
  it is even less of a pure functional language. It's considered a hybrid language that combines concepts of functional and object-orientated languages.</p> 
 
  <h4>The ultimate triumph of Lambda</h4>
- <figure class="pull-right img-with-caption small">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Brendan_Eich_Mozilla_Foundation_official_photo.jpg/600px-Brendan_Eich_Mozilla_Foundation_official_photo.jpg" alt="BrendanEich">
-    <figcaption>Brendan Eich, father of JavaScript</figcaption>
-</figure>
  <p>The development of Scala and Clojure has been part of a recent trend of increasing popularity in functional language concepts and the combining of functional concepts with
     the more conventional imperative language environments. Java itself now includes lambda functions in the latest version (Java 8), which came out in 2014. 
     Other languages outside the JVM, have either included lambda functions as an after-thought or have been strong in functional concepts from the start. 
@@ -405,11 +349,10 @@ into Java bytecode. This feature gives it an advantage that it could be used by 
     Another popular new computer language, Ruby, was also developed by a programmer with a profound interests in Lisp and Scheme.  Functional programming has become mainstream, merging with other concepts, like objects, to such an extent that it is becoming harder and harder to divide and classify languages.
 So by the time you finish reading this, the above table may make sense for historical purposes only.</p>
 
-<h4>To be continued...</h4>
  <!--Functional programming is more of a concept then a set of languages. Some languages are more functional then others</p>
 
 
-
+<h4>To be continued...</h4>
 <p>I covered about half the languages listed in the table here, but not really in chronological order nor not so much in the order of different paradigm classifications mentioned, 
 but I have plan. Trust me. I will cover everything else in a part two some time in the future. I promise. If you have any questions, concerns, or comments,
 please feel free to e-mail me at dmulvihill3@gmail.com.</p>-->

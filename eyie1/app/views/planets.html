@@ -1,0 +1,120 @@
+<div class="main">
+    <div class="top">
+		<h2 ng-cloak>{{title}}</h2>
+		<div class="row alert alert-info">
+			<div class="col-md-8">
+			   Display:
+				<!--<label class="checkbox-inline"><input type="checkbox" ng-model="chStar"> Stars</label>-->
+					<label class="checkbox-inline"><input type="checkbox"  ng-model="chInner" > Inner Planets</label>
+					<label class="checkbox-inline"><input type="checkbox" ng-model="chAster"> Asteroid belt</label>
+					<label class="checkbox-inline"><input type="checkbox" ng-model="chOuter"> Outer Gas Giants</label>
+					<label class="checkbox-inline"><input type="checkbox" ng-model="chIcy"> Pluto & beyond</label>
+            </div>
+		    <div class="col-md-4 pull-right">
+				<div ng-init="colTab=1">
+					<button class="btn btn-success btn-xs" ng-click="colTab=1">in Kilometers</button>
+					<button class="btn btn-success btn-xs" ng-click="colTab=2">in Miles</button>
+					<button class="btn btn-success btn-xs" ng-click="colTab=3">in A.U.s</button>
+				</div>
+            </div>
+        </div>
+		    
+		    
+	</div>
+      
+    <table class="table table-striped" width="100%">
+                <thead>
+                    <tr>
+						<th> Objects <span class="psda" ng-click="sortBy='name'">&#x25B2;</span><span class="psda" ng-click="sortBy='-name'">&#x25BC;</span></th>
+						<th class="text-center hidden-xs">Perigee <span class="psda" ng-click="sortBy='distance[0]'">&#x25B2;</span><span class="psda" ng-click="sortBy='-distance[0]'" >&#x25BC;</span><br>(Closest approach)</th>
+						<th class="visible-xs" >Distance <span class="psda" ng-click="sortBy='distance[1]+distance[0]/2'">&#x25B2;</span><span class="psda" ng-click="sortBy='-(distance[1]+distance[0]/2)'">&#x25BC;</span></th>
+                        <th class="text-center hidden-xs">Apogee <span class="psda" ng-click="sortBy='distance[1]'">&#x25B2;</span><span class="psda" ng-click="sortBy='-distance[1]'">&#x25BC;</span><br>(Furthest approach)</th>
+                        <th class="text-center" >Diameter <span class="psda" ng-click="sortBy='diameter'">&#x25B2;</span><span class="psda" ng-click="sortBy='-diameter'">&#x25BC;</span></th>
+					</tr>
+                </thead>
+                <tbody> 
+					<tr ng-repeat="item in items | filter:selfFilter | orderBy:sortBy:reverse" 
+						ng-if="item.type==='star'&&chStar||
+						   item.type==='inner rocky planet'&&chInner||
+						   item.type==='asteroid'&&chAster||
+						   item.type==='outer gas giant'&&chOuter||
+						   item.type==='icy dwarf'&&chIcy
+							">
+						<td><strong><a href="#/timeline/{{ item.id }}">{{item.name}}</a></strong></td> 
+						<td class="text-right" ng-show="colTab==1">{{item.distance[0]*calc | number:0}} km</td>
+						<td class="text-right" ng-show="colTab==2">{{item.distance[0]*0.62137| number:0}} m</td>
+						<td class="text-right" ng-show="colTab==3">{{item.distance[0]/147095000 | number:1}} a.u.</td>
+						<td class="text-right hidden-xs" ng-show="colTab==1">{{item.distance[1]*calc | number:0}} km</td>
+						<td class="text-right hidden-xs" ng-show="colTab==2">{{item.distance[1]*0.62137 | number:0}} m</td>
+						<td class="text-right hidden-xs" ng-show="colTab==3">{{item.distance[1]/147095000 | number:1}} a.u.</td>
+						<td class="text-right" ng-show="colTab==1">{{item.diameter*calc | number:0}} km</td>
+						<td class="text-right" ng-show="colTab==2">{{item.diameter*0.62137 | number:0}} m</td>
+						<td class="text-right" ng-show="colTab==3">{{item.diameter/147095000 | number:1}} a.u.</td>
+						<td class="hidden-xs">
+						<span ng-show="item.sats.length"><strong><a href="#/details/{{ item.id }}">Moons</a></strong></span></td>
+					</tr>
+                </tbody>
+			</table>
+ 		
+ 		<!--<div class="panel" ng-show="tab==2">
+ 			<table  class="table table-striped" width="100%">
+                <thead>
+ 				   <tr><th>Objects</th><th>in kilometers</th><th>in Miles</th></tr>
+                </thead>
+                <tbody>
+				<tr ng-repeat="item in items" 
+				     ng-if="item.type==='star'&&chStar||
+                       item.type==='inner rocky planet'&&chInner||
+                       item.type==='asteroid'&&chAster||
+				       item.type==='outer gas giant'&&chOuter||
+				       item.type==='icy dwarf'&&chIcy
+				        ">>
+					<td><strong>{{item.name}}</strong></td>  
+					<td >{{item.diameter | number}}</td>
+					<td>{{item.diameter*0.62137 | number:0}}</td>
+					
+					
+				</tr>
+                </tbody>
+			</table>
+ 		</div>
+ 		<div class="panel" ng-show="tab==3">
+			<table class="table table-striped" width="100%">
+                <thead>
+                    <tr><th>Objects</th><th>Moons</th></tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="item in items" ng-if="item.type==='star'&&chStar||
+                       item.type==='inner rocky planet'&&chInner||
+                       item.type==='asteroid'&&chAster||
+				       item.type==='outer gas giant'&&chOuter||
+				       item.type==='icy dwarf'&&chIcy
+				        ">
+					<td><strong>{{item.name}}</strong></td>  
+					<td><span ng-repeat="sat in item.sats">{{sat.name}}, </span> </td><td>
+					<span ng-show="item.sats.length"><a href="#/details/{{ item.id }}">More details</a></span></td>
+				</tr>
+                </tbody>
+			</table>
+		</div>
+		<div class="panel" ng-show="tab==4">
+			<table class="table table-striped" width="100%">
+                <thead>
+                    <tr><th>Objects</th><th>Human and robot explorers</th></tr>
+                </thead>
+                <tbody>
+				<tr ng-repeat="item in items" ng-if="item.type==='star'&&chStar||
+                       item.type==='inner rocky planet'&&chInner||
+                       item.type==='asteroid'&&chAster||
+				       item.type==='outer gas giant'&&chOuter||
+				       item.type==='icy dwarf'&&chIcy
+				        ">
+					<td><strong>{{item.name}}</strong></td>  
+					<td><span ng-repeat="observer in item.observers">{{observer.name}} ({{observer.year[0]}}), </span> </td><td>
+					<span ng-show="item.observers.length"><a href="#/timeline/{{ item.id }}">More details</a></span></td>
+				</tr>
+                </tbody>
+			</table>
+		</div>-->
+	
+	</div>

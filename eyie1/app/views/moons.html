@@ -1,0 +1,40 @@
+<h3>{{items[num].name}}'s moons and other satellites</h3>
+	<div class="row">
+        <div class="col-md-6">
+			<div ng-init="colTab=1">
+				<button class="btn btn-success btn-xs" ng-click="colTab=1">in Kilometers</button>
+				<button class="btn btn-success btn-xs" ng-click="colTab=2">in Miles</button>
+				
+			</div>
+        </div>
+        <div class="col-md-6 text-right">
+			<a class="btn btn-primary" href="#/timeline/{{ items[num].id }}">Go to Timeline</a>
+            <a a href="#/" class="btn btn-primary">Main page</a>
+        </div>
+    </div>
+	
+    <div class="row">
+        <div class="col-md-12">             
+			<table class="table table-striped" width="100%">
+                <thead>
+                    <tr>
+						<th ng-click="doSort('name')">Objects</th>
+						<th class="text-center" ng-click="doSort('distance[0]')">Distance</th>
+                        <th class="text-center" ng-click="doSort('diameter')">Diameter</th>
+						<th class="hidden-xs" ng-click="doSort('type')">Details</th>
+					</tr>
+                </thead>
+                <tbody> 
+					<tr ng-repeat="item in items[num].sats  | orderBy:sortBy:reverse">
+						<td><strong>{{item.name}}</strong></td> 
+						<td class="text-right" ng-show="colTab==1">{{item.distance[0]*calc | number:0}} km</td>
+						<td class="text-right" ng-show="colTab==2">{{item.distance[0]*0.62137| number:0}} miles</td> 
+						<td class="text-right" ng-show="colTab==1"><span ng-if="item.diameter>0">{{item.diameter*calc | number:0}} km</span></td>
+						<td class="text-right" ng-show="colTab==2"><span ng-if="item.diameter>0">{{item.diameter*0.62137 | number:0}} miles</span></td>
+						<td class="hidden-xs">{{item.type}} <span ng-if="item.discovered.length>0"> discovered by {{item.discovered[0]}} in {{item.discovered[1]}}</span></td>
+					</tr>
+                </tbody>
+			</table>
+			<a class="btn btn-primary btn-block" href="#/">Return to main page</a>
+ 		</div>
+ 	</div>

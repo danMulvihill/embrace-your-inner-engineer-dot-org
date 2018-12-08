@@ -1,3 +1,24 @@
+//heading graphics (now in the about page only)
+$(document).ready(function(){
+  //$('#s').effect('slide');
+  $('#p').fadeOut(1000).fadeIn(5000);
+//$('#y').effect('bounce',{times:3},500);
+  $('#r').fadeOut(10000).fadeIn(2000).fadeOut(3000).fadeIn(4000);
+//$('#o').effect('bounce',{times:7},2000);
+//$('#y2').effect('bounce',{times:3},500);
+//$('#a').effect('bounce',{times:20},1000);
+  $('#k').fadeOut(10).fadeIn(2000).fadeOut(5000).fadeIn(10000);
+  $( "#y2,#a,#k" ).click(function() { $( this ).fadeOut(); });
+  $( "#k" ).click(function() { $( "#s,#p,#y,#r,#o" ).fadeIn(5000); });
+  $( "#y" ).click(function() { $( this ).effect('bounce',{times:20},5000); });
+  $( "#s" ).click(function() { $('#k').fadeIn(500); });
+//$( "#p,#a" ).mouseover(function() { $( this ).effect('bounce',{times:3},1000); });
+  $( "#y" ).click(function() { $('#y2').fadeIn(5000); });
+  $("#o").click(function(){ $("#a").fadeIn(1000); });
+  $( "#r" ).click(function() { $("#s,#p,#y,#o").fadeToggle(3000,"swing"); });
+  $( "#p" ).click(function() { $("#r").fadeOut(); });  
+  });
+
 
 //unicode scripts:
 

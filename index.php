@@ -2,7 +2,7 @@
 
        
 <?php
-     if(!@$_GET['inc']) $_GET['inc']='timeline.html';
+     if(!@$_GET['inc']) $_GET['inc']='languages.html';
       include("eyie/includes/{$_GET['inc']}");
 ?>   
          

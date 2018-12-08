@@ -172,7 +172,7 @@
 	on your computer's operating system and the browser used. Not all characters are supported by all computers and browsers (and other software applications like word processors) 
 	may not display every character. For more information, see the <a href="http://unicode.org">Unicode Consortium website</a>.</p>
 
-<div class="image"><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/WritingSystemsoftheWorld.png"></div>
+<div class="image"><img src="img/WritingSystemsoftheWorld.png"></div>
 <br>
 <span style="float:right">Click here for larger image: <a href="http://upload.wikimedia.org/wikipedia/commons/0/08/WritingSystemsoftheWorld.png">23protie/wikimedia commons</a></span>
 <br><br>

@@ -13,8 +13,8 @@
      
 <!-- Custom JS -->
     <script src="eyie/app/main.js"></script>
-    <script src="eyie/app/solarApp.js"></script>  
-	<script src="eyie/app/timelineApp.js"></script> 
+    <script src="app/solarApp.js"></script>  
+	<script src="app/timelineApp.js"></script> 
  
 
 </body>

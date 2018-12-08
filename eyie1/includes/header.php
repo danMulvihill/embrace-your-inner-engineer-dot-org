@@ -61,8 +61,8 @@
 				   array('title' => 'Waves','include' => 'waves.php'),
 				   array('title' => 'Unicode','include' => 'unicode.php'),
 				   array('title' => 'Time','include' => 'time.php'),
-				//    array('title' => 'Space', 'include' => 'solar.html'),
-				//    array('title' => 'History','include' => 'timeline.html'),
+				   array('title' => 'Space', 'include' => 'solar.html'),
+				   array('title' => 'History','include' => 'timeline.html'),
 				   
 				   ];
 

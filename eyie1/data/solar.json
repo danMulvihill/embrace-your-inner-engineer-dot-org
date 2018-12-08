@@ -1,0 +1,1291 @@
+[{
+		"id": 0,
+		"name": "Sun",
+		"diameter": 1391684,
+		"type": "star",
+		"distance": [0, 0],
+		"observers": [{
+            "name": "Aristarchus",
+            "year": [-250],
+            "type": "Greek philosopher",
+            "discovery": "used geometry to determine that the Sun is about 20 times further away from the Moon. The true value is about 400 times, but this was one of the first rational attempts at astronomical measurements. He also estimated that the diameter of the Sun is 20 times larger than the Moon. He also believed that Earth revolved around the Sun but nobody believed him for the next 18 hundred years."
+            
+        },{
+            "name":"Isaac Newton",
+            "year":[1666],
+            "type":"British scientist",
+            "discovery":"observed the Sun's light using a prism and showed that it is made up of many colors"
+        },{
+            "name":"Joseph Lockyer",
+            "year":[1890],
+            "discovery":"discovered helium in the solar spectrum"
+        },{
+            "name":"William Herschel",
+            "year":[1800],
+            "type":"British astronomer",
+            "discovery":"discovered infrared radiation beyond the red part of the solar spectrum"
+        },{
+            "name":"Arthur Eddington",
+            "year":[1920],
+            "discovery":"proposed that the pressure and temperature at the core of the Sun could produce a nuclear fusion reaction that merged hydrogen (protons) into helium nuclei, resulting in a production of the energy from the net change in mass"
+        },{
+            "name":"Cecilia Payne",
+            "year": [1925],
+            "discovery":"confirmed the preponderance of hydrogen in the Sun using the ionization theory developed by Meghnad Saha, an Indian physicist"
+        },{
+            "name": "Hans Bethe",
+            "year": [1938],
+            "type": "German physicist",
+            "discovery": "worked out the basic nuclear processes by which hydrogen is fused into helium in stellar interiors. Hydrogen is the most abundant constituent of the sun and similar stars, and indeed the most abundant element in the universe. Bethe described the results of his calculations in a paper entitled \"Energy Production in Stars\"."
+        },{
+            "name": "Margaret Burbidge",
+            "year": [1957],
+            "discovery":"showed that most elements in the universe have been synthesized by nuclear reactions inside stars, some like the Sun"
+        },{
+            "name":"Pioneer 9",
+            "year":[1968],
+            "type":"earth-orbiting Sun probe",
+            "org":"NASA",
+            "discovery":"orbited the Sun at a distance similiar to that of Earth, and made the first detailed measurements of the solar wind and the solar magnetic field"
+        },{
+            "name":"Skylab space station",
+            "year":[1973],
+            "type":"space station with solar observatory module",
+            "org":"NASA",
+            "discovery":"made observations of the solar transition region and of ultraviolet emissionss from the solar corona"
+        },{
+            "name":"Solar and Heliospheric Observatory",
+            "year":[1995],
+            "org":"ESA and NASA",
+            "type":"probe orbiting at Lagrangian point between Earth and Sun",
+            "discovery":"provided a constant view of the Sun at many wavelengths and enabled the discovery of a large number of comets, mostly tiny sungrazing comets that incinerated as they pass the Sun"
+        },{
+            "name":"Ulysses",
+            "year":[1995, 2000],
+            "org":"ESA and NASA",
+            "type":"solar orbiter above the plane of the ecliptic",
+            "discovery":"first travelled to Jupiter, to slingshot into orbit above the ecliptic plane; observed the solar wind and magnetic field strength at high solar latitudes, finding that the solar wind from high latitudes was moving slower than expected; discoverd large magnetic waves emerging from high latitudes that scatter galactic cosmic rays"
+        }]
+	}, {
+		"id": 1,
+		"name": "Mercury",
+		"diameter": 4800,
+		"distance": [46001200, 69816900],
+		"type": "inner rocky planet",
+		"isPlanet": true,
+		"observers": [{
+            "name": "Mul.Apin tablet",
+            "type": "Babylonian stone tablet",
+            "year": [-1470],
+            "discovery": "earliest known record of a planet Nabu. The Greeks later referred to this planet as Hermes and the Romans called it Mercury, after the messenger god"
+        },{
+            "name": "Zupi, Giovanni Battista",
+            "type": "Earth-based human with a telescope",
+            "year": [1639],
+            "discovery": "discovered that Mercury had orbital phases, like the Moon and Venus, demonstrating that the planet orbited around the Sun"
+        },{
+            "name": "Bevis, John",
+            "org": "Royal Greenwich Observatory",
+            "type": "Earth-based human",
+            "year": [1737],
+            "discovery": "observed the first occultation (when one planet passes in front of another) of Mercury and Venus"
+        },{
+			"name": "Arecibo",
+			"org": "SRI",
+			"type": "radio telescope",
+			"year": [1965],
+			"discovery": "showed conclusively that the planet's rotational period was about 59 days, mapped most of the planet including polar deposits in shadowed craters of what may be water ice"
+		}, {
+			"name": "Mariner 10",
+			"org": "NASA",
+			"type": "fly-by robot",
+			"year": [1974],
+			"discovery": "Flew by Mercury to measured Mercury's enviroment, astmosphere, and surface; orbited the Sun and encountered Mercury a few more times. Took hundreds of pictures of the surface confirming that Mercury had been heavily bombarded by meteorites"
+		}, {
+			"name": "Hale telescope",
+			"org": "Mount Wilson Observatory",
+			"type": "telescope",
+			"year": [2000],
+			"discovery": "High-resolution lucky imaging provided first veiws that resolved surface features on parts of Mercury missed by Mariner mission"
+		}, {
+			"name": "Messenger",
+			"org": "NASA",
+			"type": "orbital probe",
+			"year": [2008, 2015],
+			"discovery": "Orbited Mercury to study chemical composition of Mercury's surface, geologic history, magnetic field, and exosphere"
+		}]
+	}, {
+		"id": 2,
+		"name": "Venus",
+		"diameter": 12104,
+		"type": "inner rocky planet",
+		"isPlanet": true,
+		"distance": [107477000, 108939000],
+		"observers": [{
+                "name": "Venus tablet of Ammisaduqa",
+                "year": [-1650],
+                "type": "cunniform tablet",
+                "discovery": "earliest known recording of Venus demonstrating that the 'morning star' and the 'evening star' were known to be a single object by various ancient civilizations (not just the Greeks)"
+        },{
+                "name": "Avicenna",
+                "type": "Earth-based human",
+                "year": [1032],
+                "discovery": "obeserved a transit of Venus and concluded Venus to be closer to Earth than the Sun"
+        },{
+                "name": "Galileo",
+                "type": "Earth-based human with telescope",
+                "year": [1610],
+                "discovery": "first known observations of the phases of Venus"
+        },{
+                "name": "Lomonosov, Mikhail",
+                "type": "Earth-based human with telescope",
+                "year": [1790],
+                "discovery": "discovered the atmosphere of Venus"
+        }, {
+				"name": "Mariner 2",
+				"org": "NASA",
+				"type": "fly-by probe",
+				"year": [1962],
+				"discovery": "flew past Venus, establishing that Venus has no intrinsic magnetic field and measured the planet's temp range as 490 to 590 K, hot enough to melt lead"
+			}, {
+				"name": "Venera 3",
+				"org": "Soviet space program",
+				"type": "lander",
+				"year": [1966],
+				"discovery": "crashed into Venus's surface and became the first spacecraft to reach another planet"
+			}, {
+				"name": "Venera 4",
+				"org": "Soviet space program",
+				"type": "atmospheric probe",
+				"year": [1967],
+				"discovery": "the first probe to enter and directly examine the atmosphere of Venus"
+			}, {
+				"name": "Mariner 5",
+				"org": "NASA",
+				"type": "fly-by probe",
+				"year": [1967],
+				"discovery": "flew by and measured the strength of Venus' magnetic field"
+			}, {
+				"name": "Venera 5/6",
+				"org": "Soviet space program",
+				"type": "atmospheric probes",
+				"year": [1969],
+                "discovery": "returned atmospheric data for about 50 minutes; were crushed by high atmospheric pressure before striking the surface"
+			}, {
+				"name": "Venera 7",
+				"org": "Soviet space program",
+				"type": "lander",
+				"year": [1970],
+				"discovery": "the first successful lander to reach the surface of Venus"
+			}, {
+				"name": "Venera 8",
+				"org": "Soviet space program",
+				"type": "lander",
+				"year": [1972],
+                "discovery": "sent data from the surface for 50 minutes, confirmed that surface of Venus is covered in volcanic rock"
+			}, {
+				"name": "Mariner 10",
+				"org": "NASA",
+				"type": "fly-by probe",
+				"year": [1973],
+                "discovery": "returned about 4000 photographic images; ultraviolet light revealed details in clouds not seen from Earth-based observations. Venus provided gravitational assist for first voyage to Mercury"
+			}, {
+				"name": "Venera 9/10",
+				"type": "orbiters and landers",
+				"org": "Soviet space program",
+				"year": [1975],
+				"discovery": "provided the first photos from the surface of Venus"
+			}, {
+				"name": "Pioneer Venus 1/2",
+				"type": "orbiter and atmospheric probe",
+				"org": "NASA",
+				"year": [1978],
+                "discovery": "orbiter with multiprobe (4) probes; orbiter remained in elliptical orbit for 13 years, studying atmosphere and mapping the surface with radar; probes returned data on atmosphere's composition, winds, and heat fluxes"
+			}, {
+				"name": "Venera 11/12",
+				"type": "landers",
+				"org": "Soviet space program",
+				"year": [1978],
+                "discovery": "detected electrical storms"
+			}, {
+				"name": "Venera 13/14",
+				"type": "landers",
+				"org": "Soviet space program",
+				"year": [1981],
+                "discovery": "returned the first color photographs of the surface; analyzed soil samples with an X-ray fluorescence spectrometer"
+			}, {
+				"name": "Venera 15/16",
+				"type": "orbiters",
+				"org": "Soviet space program",
+				"year": [1983],
+                "discovery": "conducted mapping of the terrain with radar"
+			}, {
+				"name": "Vega 1/2",
+				"type": "fly-by and landers",
+				"org": "Soviet space program",
+				"year": [1984],
+                "discovery": "discovered the atmosphere was more turbulent then previously estimated, and subject to high winds and powerful convection cells"
+			}, {
+				"name": "Magellan",
+				"type": "orbiter",
+				"org": "NASA",
+				"year": [1989],
+				"discovery": "spent four years in orbit and mapped 98 percent of the surface, peering through the thick clouds by firing a radar beam at the ground and capturing the echo; imaged craters, hills, ridges, and a wide range of volcanic formations in incredible detail"
+			}, {
+				"name": "Venus Express",
+				"type": "orbiter",
+				"org": "European Space Agency",
+				"year": [2005],
+                "discovery": "discovered a huge double atmospheric vortex at the southern pole"
+			}
+		]
+	}, {
+		"id": 3,
+		"name": "Earth",
+		"diameter": 12742,
+		"type": "inner rocky planet",
+		"distance": [147095000, 151930000],
+		"isPlanet": true,
+		"sats": [{
+			"name": "airplanes",
+			"type": "artificial sat",
+			"distance": [6, 20]
+		}, {
+			"name": "weather ballons",
+			"type": "artificial sats",
+			"distance": [50, 50]
+		}, {
+            "name": "Tiangong space station",
+            "type": "artificial satellite",
+           
+            "distance": [363,381]
+        },{
+			"name": "International Space Station",
+			"type": "artificial sat",
+			"diameter": 0,
+			"distance": [409, 416]
+		}, {
+			"name": "Hubble telescope",
+			
+			"distance": [551, 556],
+			"type": "artificial sat"
+		}, {
+			"name": "GPS satellites",
+			
+			"distance": [20000, 20000],
+			"type": "artificial sat"
+		}, {
+			"name": "Geostationary satellites",
+			
+			"distance": [35786, 35786],
+			"type": "artificial sats"
+		}, {
+			"name": "the Moon",
+			"diameter": 3474,
+			"type": "moon",
+			"distance": [362600, 405400],
+			"observers": []
+		}],
+		"observers": [{
+            "name": "Eratoshenes",
+            "year": [-200],
+            "org": "Library of Alexandria",
+            "type": "Earth-based human",
+            "discovery": "used geometry to determine that the circumference of the Earth was about 44,000 km, an estimate that was only off by 10%. Nobody beleived him for the next 18 hundred years."
+            
+        },{
+		"name": "Sputnik",
+		"year": [1957, 1958],
+		"org": "Soviet Union",
+		"type": "orbiter",
+		"discovery": "orbited Earth at 250 km (160 mi). Two radio transmitters emitted beeps; analyis of the signals was used to gather information about electron density of ionosphere, while temperature and pressure data was encoded in the duration of beeps"
+	}, {
+		"name": "Sputnik 2",
+		"year": [1957],
+		"org": "Soviet Union",
+		"type": "orbiter",
+		"people": "Laika",
+		"discovery": "the first dog in space, proving that a living passenger could survive being lauched into orbit and endure microgravity"
+	}, {
+		"name": "Explorer 1",
+		"year": [1958],
+		"org": "U.S. Army Ballistic Missile Agency",
+		"type": "orbiter",
+		"discovery": "first satellite of the United States, deteced the Van Allen radiation belt"
+	}, {
+		"name": "Vanguard 1",
+		"year": [1958],
+		"org": "United State Navy",
+		"type": "orbiter",
+		"discovery": "oldest satellite in space, it's radio continued to transmit until 1964; tracking data revealed that Earth is not a perfect sphere; improved accuracy of world maps"
+	}, {
+		"name": "Luna 1",
+		"year": [1959],
+		"org": "Soviet program",
+		"type": "fly-by sphere",
+		"discovery": "flew by the Moon, revealing that the moon had no magnetic field, and returned evidence of solar wind"
+	}, {
+		"name": "Luna 2",
+		"year": [1959],
+		"org": "Soviet space program",
+		"type": "lander",
+		"discovery": "was the first spacecraft to land on the moon's surface"
+	}, {
+		"name": "Vostok 1",
+		"year": [1961],
+		"org": "Soviet space  program",
+		"type": "low-earth orbiter carrying astronaut",
+		"people": "Yuri Gagarin",
+		"discovery": "the fight human spaceflight; orbited earth at 169 km."
+	}, {
+		"name": "Mercury-Redstone 3",
+		"year": [1961],
+		"org": "NASA",
+		"type": "low-earth orbiter carrying astronaut",
+		"people": "Alan Shephard",
+		"discovery": "the first American in space; demonstrated the ability to withstand high g forces of launch and atmospheric re-entry"
+	}, {
+		"name": "Mercury-Atlas 6",
+		"year": [1962],
+		"org": "NASA",
+		"type": "low-earth orbiter carrying astronaut",
+		"people": "John Glenn",
+		"discovery": "the first astronaut to orbit the earth, at 149-249 km"
+	},{
+        "name": "Vostok 6",
+        "type": "low-earth orbiter carrying astronaut",
+        "year": [1963],
+        "org": "Soviet space program",
+		"people": "Vanentina Tereshkova",
+        "discovery": "the first woman in space, orbited Earth 48 times"
+    },{
+        "name": "Luna 9",
+        "type": "lander",
+        "year": [1966],
+        "org": "Soviet space program",
+        "discovery": "the first spacecraft to acheive a soft landing on the Moon, preparing the way for manned missions."
+    },{
+        "name": "Luna 10",
+        "type": "lander",
+        "year": [1966],
+        "org": "Soviet space program",
+        "discovery": "the first spacecraft to orbit the Moon"
+    },{
+        "name": "Surveyor 1",
+        "org": "NASA",
+        "year":[1966],
+        "discovery": "the first American lunar soft-lander; gathered data about the moon's surface that would be needed for the manned Apollo Moon landings"
+    },{
+        "name": "Apollo 8",
+        "org": "NASA",
+        "type": "Moon orbiter carrying astronauts",
+        "year": [1968],
+		"people": "Frank Borman, James Lovell, and William Anders",
+        "discovery": "the first manned spacecraft to travel beyond low Earth orbit and reach and orbit the Moon; the first time the Earth was seen as a whole planet, the first mission to directly see the far side of the Moon, and the first to see Earthrise."
+    },{
+        "name": "Apollo 11",
+        "type": "Moon lander carrying astronauts",
+        "org": "NASA",
+        "year": [1969],
+		"people": "Neil Armstrong, Buzz Aldrin, and Michael Collins",
+        "discovery": "first of six manned moon landings"
+    },{
+        "name": "Salyut",
+        "org": "Soviet space program",
+        "type": "low-earth orbiter carrying astronauts",
+        "year": [1971],
+        "discovery": "first space station"
+    },{
+
+       "name":"Space Shuttle",
+       "org":"NASA",
+       "type": "low-earth orbiter carrying astronauts",
+       "year":[1981],
+       "discovery":"The Space Shuttle program began with orbital test flights in 1981, leading to operational flights beginning the following year, all launched from the Kennedy Space Center, Florida"
+
+     },{
+        "name": "International Space Station",
+        "org" : "Roscosmos, NASA, and others",
+        "type" : "low-earth orbiter carrying astronauts",
+        "year": [1998],
+        "discovery": "assembly of the ISS began, with Russian modules launched and docked robotically"
+
+}]
+
+	},{
+                "id": 4,
+                "name": "Itokawa",
+                "diameter": 0.535,
+                "type": "asteroid",
+                "distance": [142568000, 253520000],
+                "observers": [{
+                     "name": "LINEAR",
+                     "type": "near-Earth object survey",
+                     "year": [1998, 1999],
+                     "discovery": "discovered Itokawa, an Earth-crossing and Mars-crossing asteroid. It was named Hideo Itokawa, a Japanese rocket scientist"
+                       },{
+			"name": "Hayabusa",
+			"org": "JAXA",
+			"type": "lander",
+			"year": [2003, 2005],
+                        "discovery": "The Hayabusa spacecraft studied, mapped and landed on Itokawa to collect tiny grain samples and returned to earth"
+		}]
+        }, {
+		"id": 5,
+		"name": "Mars",
+		"diameter": 6780,
+		"type": "inner rocky planet",
+		"distance": [206700000, 249200000],
+		"isPlanet": true,
+		"sats": [{
+			"name": "Phobos",
+			"diameter": 22,
+			"distance": [9234, 9518],
+			"type": "moon"
+		}, {
+			"name": "Deimos",
+			"diameter": 12,
+			"distance": [23456, 23471],
+			"type": "moon"
+		}],
+		"observers": [ {
+			"name": "Cassini, Giovanni",
+			"type": "Italian polymath",
+			"year": [1672],
+			"discovery": "measured the parallax of Mars with simultaneous observations by his colleage Jean Richer in Cayenne, French Guiana. This allowed for the first time an estimation of the dimensions of the solar system since the relative ratios of various sun-planet distances were already known from geometry and the only thing they needed to calculate all the distances was a single absolute"
+		}, {
+			"name": "Huygens, Christiaan",
+			"type": "Dutch polymath",
+			"year": [1672],
+			"discovery": "made some of the first drawing of the planet that include the volcano Sytis Major and south pole ice cap"
+		}, {
+            "name": "Hall, Asaph",
+            "org": "United States Naval Observatory",
+            "type": "American astronomer",
+            "year": [1875],
+            "discovery": "Used the 26-inch refracting telescope at the US Naval Obervatory in Washington D.C. to discovery the two moons of Mars"
+        },{
+            "name":"Giovanni Schiaparelli",
+            "type":"Italian astronomer",
+            "year":[1877],
+            "discovery":"provided detailed drawing of Mar's surface noting the prevalence of what looked like thin, faint lines criss-crossing the surface of Mars. Many people misinterpreted the Italian word 'canali' as 'channels' and prompted a fade of fanciful ideas of canal-building civilizations on Mars."
+        },{
+			"name": "Mariner 4",
+			"type": "fly-by probe",
+			"org": "NASA",
+			"year": [1964],
+			"discovery": "first successful fly-by of Mars with close-up images"
+		}, {
+			"name": "Mariner 6/7",
+			"type": "fly-by probe",
+			"org": "NASA",
+			"year": [1969]
+		}, {
+			"name": "Mars 2/3",
+			"org": "Soviet space program",
+			"type": "orbiters and landers",
+			"year": [1971],
+			"discovery": "Mars 3 was the first probe to contact the surface of Mars; it had a camera but it stopped transmitting seconds after landing and nothing was seen"
+		}, {
+			"name": "Mariner 9",
+			"org": "NASA",
+			"type": "orbiter",
+			"year": [1971],
+			"discovery": "first space probe to orbit another planet"
+		}, {
+			"name": "Mars 5/6",
+			"org": "Soviet space program",
+			"type": "orbiter and lander",
+			"year": [1973],
+			"discovery": "Mars 6 failed during descent by returned some atmospheric data"
+		}, {
+			"name": "Viking 1/2",
+			"org": "NASA",
+			"type": "orbiter and lander",
+			"year": [1975],
+			"Viking 1 discovery": "orbiter with lander that remained operational for six years, provided first color panoramas of Mars. Orbiter mapped the surface, Viking 2 lander remained operational for three years"
+		},{
+			"name": "Mars Global Surveyor",
+			"type": "orbiter",
+			"org": "NASA",
+			"year": [1997],
+			"discovery": "mapping mission, operational for 10 years"
+		}, {
+			"name": "Mars Pathfinder with Sojourner",
+			"type": "rover",
+			"org": "NASA",
+			"year": [1997],
+			"discovery": "Landed in the Ares Vallis, returning many images with robotic exploration vehicle"
+		}, {
+			"name": "Mars Odyssey",
+			"org": "NASA",
+			"type": "orbiter",
+			"year": [2001],
+            "discovery": "Gamma Ray Spectrometer detected hydrogen on the suface of Mars, suggesting large deposits of water ice"
+		}, {
+			"name": "Mars Express and Beagle 2",
+			"org": "European Space Agency",
+			"type": "orbiter and lander",
+			"year": [2003],
+            "discovery": "Orbiter detected aurorae on Mars, and methane in the atmosphere; the lander landed safely but failed to fully deploy its solar panels and antenna"
+		}, {
+			"name": "Spirit and Opportunity",
+			"org": "NASA",
+			"type": "rovers",
+			"year": [2003],
+            "discovery": "provided evidence that liquid water existed at some time in the past at both sites where the rovers landed."
+		}, {
+			"name": "Mars Reconnaissance Orbiter",
+			"org": "NASA",
+			"type": "orbiter",
+			"year": [2005],
+            "discovery": "conducted two-year survey; mapped the terrian and weather to find suitable landing sites for upcoming lander missions; provided image of a series of active avalanches near the north pole."
+		}, {
+			"name": "Phoenix",
+			"org": "NASA",
+			"type": "lander",
+			"year": [2007],
+			"discovery": "Landed in the north polar region. Robotic arm dug into the soil and the presence of water ice was confirmed"
+		}, {
+			"name": "Curiosity",
+			"org": "NASA",
+			"type": "rover",
+			"year": [2011],
+            "discovery": "larger, faster and more advanced rover; used a laser chemical sampler to deduce the make-up of rocks"
+		},{
+            "name": "MAVEN",
+            "org": "NASA",
+            "type": "orbiter",
+            "year": [2013],
+            "discoery": "studying the upper atmosphere and serving as a communications relay satellite for landers and rovers"
+        },{
+            "name": "Mars Orbiter Mission",
+            "org": "Indian Space Research Organization",
+            "year": [2013],
+            "discovery": "India became the first country to successfully get a spacecraft into Mars' orbit on first attempt"
+        }]
+	},{
+		"id": 6,
+		"name": "Pallas",
+		"diameter": 544,
+		"type": "asteroid",
+		"distance": [318900000, 510400000],
+        "observers": [{
+            "name": "Olbers, Heinrich Willhelm",
+            "type": "German physician / astronomer",
+            "year": [1802],
+            "discovery": "discovered Pallas, originally naming it a planet until more asteroids were discovered in the early 19th century"
+        }]
+	},
+
+	{
+		"id": 7,
+		"name": "Vesta",
+		"diameter": 525,
+		"type": "asteroid",
+		"distance": [321820000, 384720000],
+		"observers": [{
+            "name": "Olbers, Heinrich Willhelm",
+            "type": "German physician / astronomer",
+            "year": [1802],
+            "discovery": "discovered Vesta, the second largest asteroid after Ceres"
+        },{
+			"name": "Dawn",
+			"org": "NASA",
+			"type": "orbiter",
+			"year": [2011, 2007],
+            "discovery": "mapped and photographed Vesta; found evidence of flowing water and metal-rich core"
+		}]
+
+	}, {
+		"id": 8,
+		"name": "Euphrosyne",
+		"diameter": 256,
+		"type": "asteroid",
+		"distance": [364755000, 577571000],
+        "observers": [{
+            "name": "Freguson, James",
+            "org": "United States Naval Academy",
+            "year": [1854],
+            "type": "American engineer/astronomer",
+            "discovery": "discovered Euphrosyne, the fifth largest asteroid; has an unusual high inclination "
+        }]
+	},
+
+	{
+		"id": 9,
+		"name": "Ceres",
+		"diameter": 950,
+		"type": "asteroid",
+		"distance": [382620000, 445410000],
+		"observers": [{
+            "name": "Piazzi, Giuseppe",
+            "type": "Italian priest",
+            "org": "Palermo Astronomical Observatory",
+            "year": [1801],
+            "discovery": "discovered the dwarf planet Ceres, originally naming it a planet until other objects were found in the same region. Ceres is the largerst object in the asteriod belt; it had been reclassified as a dwarf planet in 2006"
+            
+        },{
+            "name": "Hershel Space Telescope",
+            "org": "European Space Agency",
+            "type": "infrared telescope with a 3.5m mirror.",
+            "year": [2014],
+            "discovery": "detected emissions of water vapor from several regions of Ceres"
+        },{
+			"name": "Dawn",
+			"org": "NASA",
+			"type": "orbiter",
+			"year": [2015, 2007],
+            "discovery": "mapped and photographed Vesta; found evidence of flowing water and metal-rich core; used gamma-ray detectors and other instruments to determine the chemical composition of the surface"
+		}]
+	}, {
+		"id": 10,
+		"name": "Hygiea",
+		"diameter": 431,
+		"type": "asteroid",
+		"distance": [414380000, 524630000],
+        "observers": [{
+            "name": "de Gasparis, Annibale",
+            "org": "Naples Observatory",
+            "year": [1849],
+            "type": "Italina astronomer",
+            "discovery": "discovered Hygiea, the forth largest asteroid"
+        }]
+	},
+
+	{
+		"id": 11,
+		"name": "Jupiter",
+		"diameter": 139822,
+		"type": "outer gas giant",
+		"distance": [740573600, 816520800],
+		"sats": [{
+			"name": "Halo ring",
+			"size": 30500,
+			"distance": [92000, 122500],
+			"discovered": ["Voyager 1", 1979],
+			"type": "ring"
+		}, {
+			"name": "Metis",
+			"diameter": 22,
+			"distance": [128000],
+			"discovered": ["Voyager 1", 1979],
+			"type": "inner moon",
+			"date": 1979
+		}, {
+			"name": "Adrastea",
+			"diameter": 20,
+			"distance": [129000],
+			"discovered": ["Voyager 2", 1979],
+			"type": "inner moon",
+			"date": 1979
+		}, {
+			"name": "Amalthea",
+			"diameter": 167,
+			"distance": [181366],
+			"discovered": ["E.E. Bernard", 1892, "Lick Observatory"],
+			"type": "inner moon and gossamer ring",
+			"date": 1892
+		}, {
+			"name": "Thebe",
+			"diameter": 50,
+			"distance": [221889],
+			"discovered": ["Voyager 1", 1979],
+			"type": "inner moon and gossamer ring",
+			"date": 1979
+		}, {
+			"name": "Io",
+			"diameter": 2263.4,
+			"distance": [422000],
+			"type": "outer large moon",
+			"discovered": ["Gallileo", 1610],
+			"relativeMass": 22.7
+		}, {
+			"name": "Europa",
+			"diameter": 3100,
+			"distance": [670900],
+			"type": "outer large moon",
+			"discovered": ["Gallileo", 1610],
+			"relativeMass": 12.2
+		}, {
+			"name": "Ganymede",
+			"diameter": 5268,
+			"distance": [1070000],
+			"type": "outer large moon",
+			"discovered": ["Gallileo", 1610],
+			"relativeMass": 37.7
+		}, {
+			"name": "Callisto",
+			"diameter": 4800,
+			"distance": [1882700],
+			"type": "outer large moon",
+			"discovered": ["Gallileo", 1610],
+			"relativeMass": 27.4
+		}],
+		"observers": [{
+            "name": "Galileo",
+            "type": "Italian polymath",
+            "year": [1610],
+            "discovery": "Used one of the first telescopes to discover the four largest moons of Jupiter (Io, Europa, Ganymede, Callisto)"
+        },{
+            "name": "Barnard, E. E.",
+            "year": [1892],
+            "type": "American astronomer",
+            "discovery": "discovered Amalthea, the fifth moon of Jupiter to be discovered. This was the last moon discovered by direct telescopic observation (all other moons were discovered by examining photographic plates or other recorded images)"
+        },{
+			"name": "Pioneer 10/11",
+			"year": [1973],
+            "type": "fly-by probe",
+            "discovery": "obtained the first close-up images of Jupiter's atmosphere and several of its moons."
+		}, {
+			"name": "Voyager 1/2",
+			"year": [1979],
+            "type": "fly-by probe",
+            "discovery": "obtained close-up images of Jupiter and it's moons, discovered active volcanoes on the moon Io and detected magnetospheric concentrations of sulfur from the erruptions. Voyager 1 discovered the moons Metis and Thebes, Voyager 2 discovered Adrastea"
+		}, {
+			"name": "Ulysses",
+            "type": "fly-by probe",
+			"year": [1992],
+			"discovery": "studied Jupiter's magnetosphere"
+		}, {
+			"name": "Galileo",
+			"type": "orbiter and atmospheric probe",
+			"year": [1995],
+			"discovery": "orbited Jupiter and studied the Galilean moons and Amalthea, and witnessed the impact of Comet Shoemaker-Levy; revealed that hygroden composes up to 90% of Jupiter's atmosphere"
+		}, {
+			"name": "Juno",
+			"type": "orbiter",
+			"year": [2016],
+			"discovery": "studying the planet from a polar orbit unti 2019"
+		}]
+	}, {
+		"id": 12,
+		"name": "Saturn",
+		"diameter": 116464,
+		"type": "outer gas giant",
+		"distance": [1353572956, 1513325783],
+		"sats": [{
+			"name": "D Ring",
+			"size": 7500,
+			"distance": [66900, 74510]
+		}, {
+			"name": "C Ring",
+			"size": 17500,
+			"distance": [74658, 92000]
+		}, {
+			"name": "B Ring",
+			"size": 25500,
+			"distance": [92000, 117580]
+		}, {
+			"name": "A Ring",
+			"size": 14600,
+			"distance": [122170, 136775]
+		}, {
+			"name": "Pan",
+			"diameter": 28,
+			"distance": [133584],
+			"type": "Ring Shepherd",
+			"discovered": ["Voyager 1 (archival photos)", 1990]
+		}, {
+			"name": "Daphnis",
+			"diameter": 8,
+			"distance": [136505],
+			"type": "Ring Shepherd",
+			"discovered": ["Cassini", 2005]
+			
+		}, {
+			"name": "Atlas",
+			"diameter": 82,
+			"distance": [137670],
+			"type": "Ring Shepherd",
+			"discovered": ["Voyager 1", 1980]
+		}, {
+			"name": "Prometheus",
+			"diameter": 86,
+			"distance": [139380],
+			"type": "Ring Shepherd",
+			"discovered": ["Voyager 1", 1980]
+		}, {
+			"name": "F Ring",
+			"size": 500,
+			"distance": [140180]
+		}, {
+			"name": "Pandora",
+			"diameter": 82,
+			"distance": [141720],
+			"type": "Ring Shepherd",
+			"discovered": ["Voyager 1", 1980]
+		}, {
+			"name": "Epimetheus",
+			"diameter": 116,
+			"distance": [151410],
+			"type": "inner moon",
+			"discovered" : ["Richard Walker", 1966]
+		}, {
+			"name": "Janus",
+			"diameter": 180,
+			"distance": [151460],
+			"type": "inner moon",
+			"discovered": ["Audouin Dollfus", 1966]
+		}, {
+			"name": "G Ring",
+			"size": 9000,
+			"distance": [166000, 175000]
+		}, {
+			"name": "Aegaeon",
+			"diameter": 1,
+			"distance": [167494],
+			"type": "Ring Shepherd - G Ring",
+			"discovered": ["Cassini", 2009]
+		}, {
+			"name": "Mimas",
+			"diameter": 396,
+			"distance": [185520],
+			"type": "inner moon",
+			"discovered": ["William Herschel", 1789]
+		}, {
+			"name": "Methone",
+			"diameter": 3,
+			"distance": [194440],
+			"type": "Alkyonides",
+			"discoverd": ["Cassini spacecraft", 2004]
+		}, {
+			"name": "Anthe",
+			"diameter": 2,
+			"distance": [197700],
+			"type": "Alkyonides"
+		}, {
+			"name": "Pallene",
+			"diameter": 5,
+			"distance": [212280],
+			"type": "Alkyonides",
+			"discovered": ["Cassini spacecraft", 2004]
+		}, {
+			"name": "Enceladus",
+			"diameter": 505,
+			"distance": [238037],
+			"type": "inner large moon",
+			"discovered": ["William Herschel", 1789]
+		}, {
+			"name": "Calypso",
+			"diameter": 21,
+			"distance": [294619],
+			"type": "trailing Trojan moon of Tethys"
+		}, {
+			"name": "Telesto",
+			"diameter": 25,
+			"distance": [294619],
+			"type": "leading Trojan moon of Tethys"
+		}, {
+			"name": "Tethys",
+			"diameter": 1066,
+			"distance": [294672],
+			"type": "inner large moon",
+			"discovered": ["Cassini, Giovanni", 1684]
+		}, {
+			"name": "Helene",
+			"diameter": 36,
+			"distance": [377396],
+			"type": "leadig Trojan moon of Dione",
+			"discovered": ["Pic du Midi Observatory", 1980]
+		}, {
+			"name": "Polydeuces",
+			"diameter": 3,
+			"distance": [377396],
+			"type": "trailing Trojan moon of Dione",
+			"discovered": ["Cassini spacecraft", 2004]
+		}, {
+			"name": "Dione",
+			"diameter": 1123,
+			"distance": [377400],
+			"type": "inner large moon",
+			"discovered": ["Giovanni Cassini", 1684]
+		}, {
+			"name": "Rhea",
+			"diameter": 1528,
+			"distance": [527068],
+			"type": "outer large moon",
+			"discovered": ["Giovanni Cassini", 1672]
+		}, {
+			"name": "Titan",
+			"diameter": 5152,
+			"distance": [1221870],
+			"type": "outer large moon",
+			"discovered": ["Christiaan Huygens", 1655]
+		}, {
+			"name": "Hyperion",
+			"diameter": 260,
+			"type": "outer large moon",
+			"distance": [1500934]
+		}, {
+			"name": "Iapetus",
+			"diameter": 1471.2,
+			"type": "outer large moon",
+			"distance": [3560820]
+		}],
+		"observers": [{
+                "name": "Christiaan Huygens",
+                "year": [1665],
+                "type": "Dutch polymath",
+                "discovery": "Used a 50x refracting telescope to discovery the rings of Saturn; also discovered the largest moon, Titan"
+        },{
+                "name": "Cassini, Giovanni",
+    
+                "org": "Paris Observatory",
+                "type": "Italian polymath",
+                "year": [1671,1675,1684],
+                "discovery": "discovered four moons of Saturn: Iapetus and Rhea (1672), and later discvored Tethys and Dione (1684); discovered the Cassini Division in the rings of Saturn in 1675"
+        },{
+                "name": "Herschel, William",
+                "type": "British astonomer",
+                "year": [1789],
+                "discovery": "discovered the moons Mimas and Enceladus"
+        },{
+                "name": "Lassell, William",
+                "type": "British beer brewer",
+                "year": [1789],
+                "discovery": "discovered the moon Hyperion"
+        },{
+                "name": "Pickering, William Henry",
+                "type": "American astonomer",
+                "year": [1789],
+                "discovery": "discovered Phoebes, the first irregular moon of Saturn (and the first irregular moon of any planet to be discovered)"
+        },{
+				"name": "Pioneer 10/11",
+				"year": [1979],
+                "type": "fly-by probe",
+                "discovery": "captured images of Saturn and a few of its moons; studied Saturn's rings, revealing the thin F-ring"
+			}, {
+				"name": "Voyager 1/2",
+				"year": [1980],
+				"type": "fly-by probe",
+                "discovery": "captured first high-resolution images of Saturn, its rings and moons; studied Titan and its atmosphere; discovered several new moons orbiting near or within the planet's rings, as well gaps between rings"
+			}, {
+				"name": "Cassini and Huygens",
+				"year": [2004],
+                "type": "orbiter and lander on Titan",
+                "discovery": "studied moons of Saturn, especially Titan, captured radar images of large lakes with islands and mountains; found evidence of liquid water reservoirs erupting in geysers on Enceladus. Huygens was dropped onto Titan, sending data about the atmosphere "
+			}
+
+		]
+	}, {
+		"id": 13,
+		"name": "Uranus",
+		"diameter": 50724,
+		"type": "outer gas giant",
+		"distance": [2735118100, 3006224700],
+		"sats": [{
+			"name": "Cordelia",
+			"diameter": 40,
+			"distance": [49752],
+			"type": "inner small moon",
+			"discovered": ["Voyager 2", 1986]
+		},{
+			"name": "Ophelia",
+			"diameter": 43,
+			"distance": [53763],
+			"type": "inner small moon",
+			"discovered": ["Voyager 2", 1986]
+		}, {
+			"name": "Portia",
+			"diameter": 135,
+			"distance": [66097],
+			"type": "inner small moon",
+			"discovered": ["Voyager 2", 1986]
+		},{
+			"name": "Rosalind",
+			"diameter": 72,
+			"distance": [69926],
+			"type": "inner small moon",
+			"discovered": ["Voyager 2", 1986]
+		},{
+			"name": "Mab",
+			"diameter": 48,
+			"distance": [97736],
+			"type": "inner small moon",
+			"discovered": ["Hubble Space Telescope", 2003]
+		},{
+			"name": "Miranda",
+			"diameter": 471,
+			"distance": [129900],
+			"type" : "large moon",
+			"discovered": ["Gerard Kuiper", 1948]
+		}, {
+			"name": "Ariel",
+			"diameter": 1157.8,
+			"distance": [190900],
+			"type" : "large moon",
+			"discovered": ["William Lassell", 1851]
+		}, {
+			"name": "Umbriel",
+			"diameter": 1169.4,
+			"distance": [266000],
+			"type" : "large moon",
+			"discovered": ["William Lassell", 1851]
+		}, {
+			"name": "Titania",
+			"diameter": 1577.8,
+			"distance": [436300],
+			"type" : "large moon",
+			"discovered": ["William Herschel", 1787]
+		}, {
+			"name": "Oberon",
+			"diameter": 1522.8,
+			"distance": [583500],
+			"type" : "large moon",
+			"discovered": ["William Herschel", 1787]
+		}],
+		"observers": [{
+            "name": "Herschel, William",
+            "year": [1781],
+            "discovery": "discovered Uranus, the first planet to be discovered with a telescope, although he originally assumed it to be a comet."
+        },{
+            "name": "Cornell University",
+            "year": [1977],
+            "discovery": "Three scientists James Elliot, Edward Dunham, and Jessica Mink discovered rings of Uranus with the techniuqe of stellar occultation"
+        },{
+			"name": "Voyager 2",
+			"year": [1986],
+            "type": "fly-by probe",
+            "discovery": "studied the structure and chemical composition of Uranus's atmosphere, including it's unique weather caused by its axial tilt; discovered 10 new noons, examined the rings already known and discovered two more"
+		}]
+	}, {
+		"id": 14,
+		"name": "Neptune",
+		"diameter": 49244,
+		"type": "outer gas giant",
+		"distance": [4459504400, 4537580900],
+		"sats": [{
+			"name": "Naiad",
+			"diameter": 66,
+			"distance": [48227]
+		}, {
+			"name": "Thalassa",
+			"diameter": 82,
+			"distance": [50074]
+		}, {
+			"name": "Despina",
+			"diameter": 150,
+			"distance": [52526]
+		}, {
+			"name": "Galatea",
+			"diameter": 176,
+			"distance": [61953]
+		}, {
+			"name": "Larissa",
+			"diameter": 194,
+			"distance": [73548]
+		}, {
+			"name": "Proteus",
+			"diameter": 420,
+			"distance": [117646]
+		}, {
+			"name": "Triton",
+			"diameter": 2700,
+			"distance": [354759]
+		}, {
+			"name": "Nereid",
+			"diameter": 340,
+			"distance": [5513818]
+		}, {
+			"name": "Halimede",
+			"diameter": 62,
+			"distance": [16611000]
+		}, {
+			"name": "Sao",
+			"diameter": 88,
+			"distance": [22228000]
+		}, {
+			"name": "Laomedeia",
+			"diameter": 42,
+			"distance": [23567000]
+		}, {
+			"name": "Psamathe",
+			"diameter": 40,
+			"distance": [48096000]
+		}, {
+			"name": "Neso",
+			"diameter": 60,
+			"distance": [49285000]
+		}],
+		"observers": [{
+            "name": "Le Verrier, Urbain",
+            "year": [1846],
+            "type": "French mathematician",
+            "discovery": "predicted the existence and position of Neptune using only mathematics."
+        },{
+            "name": "Lassell, William",
+            "year":[1846], 
+            "type": "English brewer",
+            "discovery": "discovered Triton, Neptune's large moon, 17 days after Neptune was discovered"
+        },{
+            "name":"Kuiper, Gerard",
+            "year": [1949],
+            "type": "Dutch-American astronmer",
+            "org": "McDonald Observatory",
+            "discovery": "discovered Neptune's moon Nereid using photographic plates taken with the 82-inch telescope"
+        },{
+			"name": "Voyager 2",
+			"year": [1989],
+            "type": "fly-by probe",
+            "discovery": "the only spacecraft to visit Neptune, photographed and studied Neptune and it's moon Triton; verified the existence of a magnetic field and provided accurate measurements of its mass"
+		}]
+	}, {
+		"id": 15,
+		"name": "Pluto",
+		"diameter": 2368,
+		"type": "icy dwarf",
+		"distance": [4437000000, 7311000000],
+		"sats": [{
+			"name": "Charon",
+			"type": "moon",
+			"diameter": 1207,
+			"distance": [19567, 19575]
+		}, {
+			"name": "Styx",
+			"type": "moon",
+			"diameter": 20,
+			"distance": [42413, 42413]
+		}, {
+			"name": "Nyx",
+			"diameter": 45,
+			"distance": [48708, 48708]
+		}, {
+			"name": "Kerberos",
+			"diameter": 20,
+			"distance": [59000, 59000]
+		}, {
+			"name": "Hydra",
+			"diameter": 50,
+			"distance": [64749, 64749]
+		}],
+		"observers": [{
+            "name":"Lowell, Percival",
+            "year":[1906],
+            "type":"American astronomer",
+            "discovery":"started an extensive project in search of a possible ninth planet, which he termed 'Planet X'."
+        },{
+            "name":"Tombaugh, Clyde W.",
+            "year":[1929],
+            "type":"American astronomer",
+            "org":"Lowell Observatory",
+            "discovery":"discovered Pluto using a new technique of photographic plates combined with a blink microscope."
+        },{
+            "name":"Christy, James",
+            "type":"American astronomer",
+            "org":"U.S. Naval Observatory",
+            "year":[1978],
+            "discovery":"discovered Pluto's biggest moon, Charon"
+        },{
+            "name":"Hubble Telescope",
+            "year":[2005],
+            "type":"Space telescope in earth's orbit",
+            "org":"NASA / ESA",
+            "discovery":"discovered Nix and Hydra, two moons of Pluto"
+        },{
+            "name":"International Astronomical Union",
+            "year":[2006],
+            "discovery":"the IAU announced that Pluto would no longer be considered a planet, due to new rules that said planets must \"clear the neighborhood\" around  its orbit (Pluto's oblong orbit overlaps that of Neptune)."
+        },{
+			"name": "New Horizons",
+			"year": [2015],
+            "type":"flyby probe",
+            "org":"NASA",
+            "discovery":"the first spacecraft to fly by Pluto; made detailed measurements and observations of the planets and its moons"
+		}]
+	}, {
+		"id": 16,
+		"name": "Haumea",
+		"diameter": 1300,
+		"type": "icy dwarf",
+		"distance": [5229000000, 7702000000],
+		"observers": [
+		  {"name": "Brown, Michael",
+		   "year": [2005],
+		   "discovery": "Dwarf planet named in honor of the Hawaiian earth goddess because the Mauna Kea Observatory is located on Hawaii and the dwarf planet is thought to be composed almost entirely of solid rock, without the thick ice mantle over a small rocky core typical of other known Kuiper belt objects."}
+		],
+		"sats": [{
+			"name": "Namaka",
+			"diameter": 170,
+			"distance": [25657, 25657]
+		}, {
+			"name": "Hi'iaka",
+			"diameter": 390,
+			"distance": [49880, 49880]
+		}]
+
+	}, {
+		"id": 17,
+		"name": "Makemake",
+		"diameter": 1430,
+		"type": "icy dwarf",
+		"distance": [5671928586, 7894762625],
+		"observers" : [
+                  { "name": "Brown, Michael",
+                    "year" : [2005],
+                    "discovery": "A distance planet in the Kuiper belt named after the creator of humanity, the god of fertility and the chief god of the bird-man cult on Easter Island. It was so named because both the planet and the island are connected to Easter; the planet was discovered shortly after Easter 2005, and the first European contact with Easter Island was on Easter Sunday 1722"
+                     }
+                ]
+	}, {
+        "id":18,
+        "name": "2014 MU69",
+        "diameter": 40,
+        "type": "icy dwarf",
+        "distance": [6313030000, 6896462000],
+        "observers":[
+            {"name":"Hubble Telescope",
+            "year":[2014],
+            "discovery":"discovered by the Hubble Telescope during a preliminary survey to find a suitable Kuiper belt object for the New Horizons probe to flyby in 2019."}
+        ]
+        
+    },{
+        "id": 19,
+		"name": "Eris",
+		"diameter": 2326,
+		"type": "icy dwarf",
+		"distance": [5723000000, 14602000000],
+		"sats": [{
+			"name": "Dysmonia",
+			"diameter": 684,
+			"distance": [37350, 37350]
+		}],
+        "observers":[{
+            "name":"Brown, Michael",
+            "type":"American astronomer",
+            "year":[2005],
+            "org":"Palomar Observatory",
+            "discovery":"discovered using automatic image-searching software"
+        }] 
+	}, {
+		"id": 20,
+		"name": "Sedna",
+		"diameter": 1000,
+		"type": "icy dwarf",
+		"distance": [11423000000, 140000000000],
+                "observers": [{
+            "name":"Brown, Michael",
+            "type":"American astronomer",
+            "year":[2003],
+            "org":"Palomar Observatory",
+            "discovery":"the coldest, most distant place known in the Solar System, name in honor of Sedna, the Inuit goddess of the sea, who is thought to live at the bottom of the frigid Arctic Ocean."
+        }]
+	},{
+		"id": 21,
+		"name": "Gaspra",
+		"diameter": 6,
+		"type": "asteroid",
+		"distance": [272985000, 388102000],
+                "observers": [{
+                    "name": "Grigory Neujmin",
+                    "type": "Russian astronomer",
+                    "year": [1916],
+                    "discovery": "discovered Gaspra, naming it after a Black Sea resort town."
+                },{
+                    "name": "Galileo",
+                    "type": "fly-by probe",
+                    "year": [1991],
+                    "discovery": "passed by Gaspra on the way to Jupiter, capturing several images. First spacecraft to fly close to an asteroid."
+                 }]
+	}
+
+]

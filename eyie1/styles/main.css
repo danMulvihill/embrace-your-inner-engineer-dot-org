@@ -6,43 +6,6 @@ header h3{
        text-align:right; font-size: 20px; color:#224754;clear:both
        }
 */
-
-/* global figure styles */
-
-.img-with-caption{
-    background: #ccc;
-    margin-bottom: 10px;
-    
-}
-.img-with-caption img{
-    width: 100%;
-}
-.img-with-caption figcaption{
-    width: 100%; 
-    font-size: 0.9em;
-    padding: 3px; 
-}
-@media (min-width: 500px){
-    .img-with-caption{
-        width: 45%;
-        margin: 8px;
-    }
-    .small{
-        width: 30%;
-    }
-}
-
-
-@media (min-width: 1000px){
-    .img-with-caption{
-        width: 30%;
-
-    }
-    .large{
-        width: 50%;
-    }
-}
-
 header .container{max-width:1200px}
 /*h1,h2,h3,h4,h5,h6{font-family:"Trebuchet MS", serif;}*/
 h1{margin:15px;text-align:center; font-size:2em;}

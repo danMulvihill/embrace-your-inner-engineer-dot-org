@@ -7,19 +7,19 @@ var app = angular.module("astroApp", ['ngRoute']);
 app.config(function($routeProvider){
    $routeProvider
    .when('/', {
-       templateUrl: 'eyie/app/views/planets.html',
+       templateUrl: 'app/views/planets.html',
        controller: 'astroCtrl'
         })
    .when('/details/', {
-       templateUrl: 'eyie/app/views/moons.html',
+       templateUrl: 'app/views/moons.html',
        controller: 'moonCtrl'
         })
     .when('/details/:num', {
-       templateUrl: 'eyie/app/views/moons.html',
+       templateUrl: 'app/views/moons.html',
        controller: 'moonCtrl'
         })
      .when('/timeline/:num', {
-       templateUrl: 'eyie/app/views/observers.html',
+       templateUrl: 'app/views/observers.html',
        controller: 'timeCtrl'
         });
    });

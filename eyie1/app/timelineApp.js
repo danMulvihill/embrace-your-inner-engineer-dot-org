@@ -7,11 +7,11 @@ var app = angular.module("timelineApp", ['ngRoute']);
 app.config(function($routeProvider){
    $routeProvider
    .when('/', {
-       templateUrl: 'eyie/app/views/timeline.html',
+       templateUrl: 'app/views/timeline.html',
        controller: 'timelineCtrl'
         })
      .when('/timeline/:num', {
-       templateUrl: 'eyie/app/views/observers.html',
+       templateUrl: 'app/views/observers.html',
        controller: 'timeCtrl'
         });
    });
