@@ -4,8 +4,8 @@
 <p>A sampling of some of the most significant computer languages, 
 and some relatively unknown ones thrown in to help make sense of historical trends and developments.</p>
 
-<!-- this is old code that created when I first started getting into coding in 2015
-this would be well-suited for flex-box; all refactor this someday -->
+<!-- this is old code that I created when I first started getting into coding
+this would be well-suited for flex-box; I will refactor this someday -->
 <div class="merow mehead">
     <div class="mecols">Primal Languages</div>
     <div class="mecols">Functional</div>
@@ -30,7 +30,7 @@ this would be well-suited for flex-box; all refactor this someday -->
     <div class="mecols">
         <ul class="melist">
             <li class="mehiddenlabels">Functional Languages</li>
-            <!--the span tags were used to group multiple blank li -->
+            <!--the span tags were used to group multiple blank lis -->
             <span class="nbsp">
                 <li>&nbsp;</li>
                 <li>&nbsp;</li>
@@ -185,7 +185,7 @@ this would be well-suited for flex-box; all refactor this someday -->
 </div>
 <h4>Algorithms</h4>
     <p>The first computers were people. They were "controlled" by providing them a set of instructions that guided what to do.
-        The instruction had to be specific enough and clear enough to prevent ambiguous interpretation.</p>
+        The instructions had to be specific enough and clear enough to prevent ambiguous interpretation.</p>
         <figure class="pull-left img-with-caption large">
            <img class="img-rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Khiva.jpg/800px-Khiva.jpg"> 
            <figcaption>Statue of Muḥammad ibn Mūsā al-Khwārizmī</figcaption> 
@@ -202,7 +202,7 @@ this would be well-suited for flex-box; all refactor this someday -->
     navigation and astronomy for making long tedious calculations. 
 </p>
 <p>For centuries, hundreds, if not thousands, of human computers had contributed to the development of science and technology. A
- few of them even made well-known contributions. 
+ few of them have even gone rogue, starting thinking about their calculations and made well-known contributions. 
  One of them was Henreitta Swan Leavitt, who, in 1908, formulating something called the 'period-luminosity relationship' of a particular type of stars 
  known as Cepheid variables. 
  This discovery essentially made it possible to determine how far galaxies are from us, which led to the discovery of an expanding universe and the big bang.
@@ -275,23 +275,30 @@ this would be well-suited for flex-box; all refactor this someday -->
     That's why we use binary digits (0="off" and 1="on") to talk to them. We translate binary digits into the decimal numbers that we humans like to deal with, but a computer does not really count binary digits, either. It turns on and off electrical switches - complex patterns of electrical switches - and we interpret, or abstract, these patterns with binary numbers.
     With computers, we essentially trained machines to switch electrical circuits on and off in certian patterns and sequences that do everything from writing e-mail messages to finding sub-atomic particles in atom-smashing parties. These would actually be very tedious and mind-numbing activity that would drive people crazy if we trained humans to do it. A computer does it much faster without thinking or complaining.<!--Remember this the next time you blame your computer for making your life complicated. It's precise the other way around. Our lives were already complicated thanks to our oversized brains. We are making machines' lives more complicated. -->
 </p>
-<p><!--With the first computer languages fed into electronic computers in the 1940s, programmers wrote lines of code that directed the 'memory' to move stored data into the 'processor' to be processed and then moved it back to memory. We don't know precisely when the first assembly languages were used or even where the name 'assembly' came from partly because the first programmers didn't realize the impact their work would have on the world. They were just trying make their jobs easier. <!-- In all likelihood it was probably a woman, or a group of women, because the vast majority of human computers were women. In addition, much of it was done in secrecy and obscurity because there was a war at the time. -->Two of the most common tasks people were having machines do was deciphering enemy codes and calculating trajectories for dropping bombs from airplanes. One of the first recorded use of assembly comes from a 1951 book entitled <i>The Preparation for an Electronic Digital Computer</i> by Maurice Wilkes, David Wheeler and Stanley Gill.  These three authors were mathematicians who worked on one of the earliest electronic computers known as the EDSAC at the Cavendish Laboratory in Cambridge, England. This book describes how assembly languages were used on the EDSAC.
+<p><!--With the first computer languages fed into electronic computers in the 1940s, programmers wrote lines of code that directed the 'memory' to move stored data into the 'processor' to be processed and then moved it back to memory. We don't know precisely when the first assembly languages were used or even where the name 'assembly' came from partly because the first programmers didn't realize the impact their work would have on the world. They were just trying make their jobs easier. <!-- In all likelihood it was probably a woman, or a group of women, because the vast majority of human computers were women. In addition, much of it was done in secrecy and obscurity because there was a war at the time. -->
+During World War II, computers played a significant role in keeping Great Britain from being overtaken up by
+ the Germans.
+Two of the most common tasks people were having machines do was deciphering enemy codes and calculating 
+trajectories for dropping bombs from airplanes. One of the first recorded use of assembly comes from a 1951 book entitled <i>The Preparation for an Electronic Digital Computer</i> by Maurice Wilkes, David Wheeler and Stanley Gill.  These three authors were mathematicians who worked on one of the earliest electronic computers known as the EDSAC at the Cavendish Laboratory in Cambridge, England. This book describes how assembly languages were used on the EDSAC.
 </p>
-<!--<p>Machines, by the way, played a significant role in keeping Great Britain from being overtaken up by the Nazis. 
+<!--<p> 
     In addition to EDSAC, there was another machine known as Colossus which was used to decipher enemy codes. 
     A mathematician by the name of Alan Turing created some of the algorithms that the human computers fed to Colossus, one of the first non-human computers. 
-    To be fair though, the Nazis were using machines to try take over the world, but they were not too successful with their plan, fortunately.
+    
 </p>-->
 <h4>Complied Languages</h4>
 
-<p>One problem with talking to a computer directly with assembly languages is that you had to make your language specific to each processor in each computer. 
+ 
 <figure class="pull-left img-with-caption large" >
     <img src="eyie/images/grace.jpg" alt="Grace Murray Hopper">
     <figcaption>Grace Murray Hopper, holding the docs for COBOL, one the languages her ideas inspired</figcaption>
 </figure>
+<p>One problem with talking to a computer directly with assembly languages is that you had to make your 
+    language specific to each processor in each computer.
     Each time a new processor was invented, a new assembly language had to be made for it. 
     This process was made easier with mass production of interchangeable processors, but what made life easier for programmers was a language that 
-    could be translated into many assembly languages or directly into machine language. The mechanism that made this possible was something called a compiler.
+    could be translated into many assembly languages or directly into machine language. The mechanism that made this possible was something called a compiler.</p>
+    
     <p>Various people began working on compilers in the 1950s and one of the first was Grace Murray Hopper, a mathematician and rare admiral in the 
         United States Navy. 
         During the war, Grace Hopper worked on a machine known as the Automatic Sequence Controlled Calculator at Harvard University to help calculate missile
@@ -375,7 +382,7 @@ also another function, or group of functions, and functions can return functions
 </figure>
 <h4>Scheme</h4>
 <p> There are a couple of 'dialects' of Lisp that are worth noting. One of them is Scheme, a language, or Lisp dialect,
-    invented at the MIT Artificial Intelligence (AI) Lab in the 1970s. Scheme was invented to give a Lisp a more 
+    invented at the MIT Artificial Intelligence (AI) Lab in the 1970s. Scheme was invented to give Lisp a more 
     minimalist design, but introduced some new concepts, like lexical scope, that became widespread in other languages.
     One fan of Lisp was Brendan Eich, an employee at Netscape in the 1990s who originally planned
     on implementing a Scheme interpreter in the Netscape browser to manipulate HTML and provide interactivity to Web pages.

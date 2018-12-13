@@ -4,9 +4,10 @@
 <head>
     <title>Embrace Your Inner Engineer: web development and other things</title>
     <meta name="viewport" content="width=device-width">
+
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta charset="UTF-8">  
-    <link href="eyie/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <link href="eyie/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
  
 <!--Bootstrap CSS-->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
