@@ -8,7 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta charset="UTF-8">  
     <link href="eyie/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
- 
+    <link href="https://embraceyourinnerengineer.org/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
 <!--Bootstrap CSS-->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <!--<link rel="stylesheet" href="styles/bootstrap.min.css">-->
